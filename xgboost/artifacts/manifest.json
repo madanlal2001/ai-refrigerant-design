@@ -1,0 +1,31 @@
+{
+  "protocol": "frozen_v3",
+  "canonical_definition": "Chem.MolToSmiles(mol, canonical=True, isomericSmiles=True)",
+  "split": {
+    "cutoff": 0.6,
+    "fp_bits": 2048,
+    "assignment": "deterministic normalized-deficit 80/10/10",
+    "sizes": {
+      "train": 1669,
+      "val": 209,
+      "test": 209
+    }
+  },
+  "benchmark_n": 2087,
+  "labels": {
+    "Tc (K)": 2086,
+    "Pc (bar)": 1950,
+    "omega (-)": 1513
+  },
+  "est_pool_n": 5803,
+  "est_removed_for_leakage": 338,
+  "tb_pool_n": 5318,
+  "tb_oof_rmse_K": 25.645574645885688,
+  "feature_dim": 2265,
+  "input_hashes": {
+    "final_master_experimental_finetuning_6644.csv": "a2c259fd40a8a6bea98a4e3794d365cb56dc55c5c5b7a744bcccb055fb9967e9",
+    "final_pretraining_estimated_critprop.csv": "c551a6164da960b161598ef3124104c6f1f0a824670aaba94e1e8cb0addb9bd2",
+    "molecules_144_refrigerant.xlsx": "d1a9d8c951ac89ac6fe4f8e9141d19a5dc172939f59a5482d1f053de1e219265"
+  },
+  "seed": 42
+}

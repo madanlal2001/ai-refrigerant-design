@@ -1,0 +1,6 @@
+canonical_smiles,name,cluster_id,target,actual,pred,abs_error,src_Pc
+N#CN=C(N)N,cyanoguanidine,875,Pc (bar),53.4,57.378624,3.978623962402345,yaws
+NCCNCCN,diethylene triamine,26,Pc (bar),42.2,71.288086,29.0880859375,yaws
+NCCNCCNCCNCCNCCN,pentaethylenehexamine,26,Pc (bar),21.1,65.362915,44.2629150390625,yaws
+NCCNCCNCCNCCN,tetraethylenepentamine,26,Pc (bar),25.3,68.26568,42.96567840576172,yaws
+NCCNCCNCCN,triethylene tetramine,26,Pc (bar),31.7,68.66377,36.96377258300781,yaws

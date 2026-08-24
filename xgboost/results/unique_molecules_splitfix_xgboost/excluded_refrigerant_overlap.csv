@@ -1,0 +1,25 @@
+name,smiles,Tc (K),Pc (bar),omega (-),source,value_sources,canonical_smiles
+"1,1,2,3,3,4,4,4-octafluoro-1-butene",FC(F)=C(F)C(F)(F)C(F)(F)F,392.0,23.3,0.291,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)C(F)(F)C(F)(F)F
+"1,1-difluoroethylene",C=C(F)F,302.8,44.6,0.136,yaws,Tc:yaws|Pc:yaws|omega:yaws,C=C(F)F
+"2-chloro-1,1-difluoroethylene",FC(F)=CCl,400.55,44.58,0.212,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=CCl
+2-fluoro-1-propene,C=C(C)F,396.62,44.21,0.193,yaws,Tc:yaws|Pc:yaws|omega:yaws,C=C(C)F
+acetylene,C#C,308.3,61.38,0.191,yaws,Tc:yaws|Pc:yaws|omega:yaws,C#C
+allene,C=C=C,394.0,52.5,0.104,yaws,Tc:yaws|Pc:yaws|omega:yaws,C=C=C
+bromotrifluoroethylene,FC(F)=C(F)Br,432.0,44.8,0.175,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)Br
+chlorotrifluoroethylene,FC(F)=C(F)Cl,379.15,40.53,0.244,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)Cl
+"cis-1,2-difluoroethene",F/C=C\F,394.67,47.69,0.21,yaws,Tc:yaws|Pc:yaws|omega:yaws,F/C=C\F
+cis-1-fluoro-1-propene,C/C=C\F,430.49,44.5,0.208,yaws,Tc:yaws|Pc:yaws|omega:yaws,C/C=C\F
+dimethyl ether,COC,400.1,53.7,0.2,yaws,Tc:yaws|Pc:yaws|omega:yaws,COC
+ethyl fluoride,CCF,375.31,50.28,0.22,yaws,Tc:yaws|Pc:yaws|omega:yaws,CCF
+hexafluoropropylene,FC(F)=C(F)C(F)(F)F,368.0,29.0,0.205,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)C(F)(F)F
+isobutane,CC(C)C,407.8,36.4,0.184,yaws,Tc:yaws|Pc:yaws|omega:yaws,CC(C)C
+methyl fluoride,CF,317.42,58.75,0.198,yaws,Tc:yaws|Pc:yaws|omega:yaws,CF
+methylacetylene,C#CC,402.4,56.3,0.212,yaws,Tc:yaws|Pc:yaws|omega:yaws,C#CC
+perfluoroisobutene,FC(F)=C(C(F)(F)F)C(F)(F)F,392.0,23.3,0.291,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(C(F)(F)F)C(F)(F)F
+propylene,C=CC,364.9,46.0,0.141,yaws,Tc:yaws|Pc:yaws|omega:yaws,C=CC
+tetrafluoroethylene,FC(F)=C(F)F,306.45,39.44,0.227,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)F
+"trans-1,2-difluoroethene",F/C=C/F,394.67,47.69,0.21,yaws,Tc:yaws|Pc:yaws|omega:yaws,F/C=C/F
+trans-1-fluoro-1-propene,C/C=C/F,430.49,44.5,0.208,yaws,Tc:yaws|Pc:yaws|omega:yaws,C/C=C/F
+trifluoroethene,FC=C(F)F,347.22,45.16,0.238,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC=C(F)F
+trifluoromethyl trifluorovinyl ether,FC(F)=C(F)OC(F)(F)F,363.0,31.1,0.35,yaws,Tc:yaws|Pc:yaws|omega:yaws,FC(F)=C(F)OC(F)(F)F
+vinyl fluoride,C=CF,327.8,52.4,0.143,yaws,Tc:yaws|Pc:yaws|omega:yaws,C=CF

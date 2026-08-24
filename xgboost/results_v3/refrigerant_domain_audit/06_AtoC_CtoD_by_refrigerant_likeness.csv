@@ -1,0 +1,11 @@
+refrig_likeness_bin,contrast,n,median_delta,mean_delta,n_improved,n_worsened,n_tied
+LOW,A->C,202,0.8892,2.9501,126,76,0
+LOW,C->D,202,0.1935,0.818,105,97,0
+MEDIUM,A->C,6,-0.815,-0.3406,2,4,0
+MEDIUM,C->D,6,-4.8474,-3.6815,2,4,0
+HIGH,A->C,1,-4.4731,-4.4731,0,1,0
+HIGH,C->D,1,8.9317,8.9317,1,0,0
+MEDIUM+HIGH,A->C,7,-1.4417,-0.9309,2,5,0
+MEDIUM+HIGH,C->D,7,-4.0422,-1.8796,3,4,0
+ALL,A->C,209,0.7527,2.8201,128,81,0
+ALL,C->D,209,0.1933,0.7276,108,101,0

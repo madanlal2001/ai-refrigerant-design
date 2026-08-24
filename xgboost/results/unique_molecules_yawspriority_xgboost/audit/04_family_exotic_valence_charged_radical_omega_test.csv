@@ -1,0 +1,13 @@
+canonical_smiles,name,cluster_id,target,actual,pred,abs_error,src_omega
+O=[N+]([O-])c1ccc(Cl)c([N+](=O)[O-])c1,"1-chloro-2,4-dinitrobenzene",207,omega (-),0.732,0.7557427,0.0237427287101745,yaws
+Cc1c([N+](=O)[O-])cc([N+](=O)[O-])cc1[N+](=O)[O-],"2,4,6-trinitrotoluene",207,omega (-),0.897,0.86798584,0.0290141553878784,yaws
+Cc1ccc([N+](=O)[O-])cc1[N+](=O)[O-],"2,4-dinitrotoluene",207,omega (-),0.713,0.6966734,0.0163266067504882,yaws
+Cc1cc([N+](=O)[O-])ccc1[N+](=O)[O-],"2,5-dinitrotoluene",207,omega (-),0.712,0.68950015,0.0224998469352721,yaws
+Cc1ccc([N+](=O)[O-])c([N+](=O)[O-])c1,"3,4-dinitrotoluene",207,omega (-),0.709,0.70219773,0.0068022694587707,yaws
+O=[N+]([O-])OCCO[N+](=O)[O-],ethylene glycol dinitrate,689,omega (-),0.79,0.7010115,0.0889885210990906,yaws
+CN(c1c([N+](=O)[O-])cc([N+](=O)[O-])cc1[N+](=O)[O-])[N+](=O)[O-],"N-methyl-N,2,4,6-tetranitroaniline",207,omega (-),1.278,0.96223277,0.315767231464386,yaws
+[O]N=O,nitrogen dioxide,805,omega (-),0.8511,0.31838447,0.5327155314445495,yaws
+COc1ccccc1[N+](=O)[O-],o-nitroanisole,386,omega (-),0.561,0.6083014,0.0473014011383056,yaws
+O=[N+]([O-])OCC(CO[N+](=O)[O-])(CO[N+](=O)[O-])CO[N+](=O)[O-],pentaerythritol tetranitrate,689,omega (-),1.451,1.142046,0.3089540252685547,yaws
+[O-][Cl+3]([O-])([O-])O,perchloric acid,795,omega (-),0.0498,0.4823695,0.4325695123195648,yaws
+[N]=O,Nitroxyl,735,omega (-),0.585,0.23251958,0.3524804180860519,finetune

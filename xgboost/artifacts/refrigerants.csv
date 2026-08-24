@@ -1,0 +1,143 @@
+IUPAC_Name,Structure,COP,SMILES,canonical_smiles
+ethane,CH3-CH3,,CC,CC
+ethyne (acetylene),CH≡CH,6.03,C#C,C#C
+propene (propylene),CH2=CH-CH3,7.77,C=CC,C=CC
+propane,CH3-CH2-CH3,7.81,CCC,CCC
+prop-1-yne,CH3-C≡CH,8.29,C#CC,C#CC
+cyclopropane,c-CH2-CH2-CH2-,8.3,C1CC1,C1CC1
+2-methylpropane (isobutane),(CH3)2-CH-CH3,8.13,CC(C)C,CC(C)C
+cyclopropene,c-CH2-CH=CH-,8.5,C1=CC1,C1=CC1
+fluoromethane,CH3F,,CF,CF
+difluoromethane,CH2F2,7.68,FCF,FCF
+fluoroethane,CH2F-CH3,8.07,CCF,CCF
+"1,1-difluoroethane",CHF2-CH3,8.22,CC(F)F,CC(F)F
+"1,1,2,2-tetrafluoroethane",CHF2-CHF2,8.16,FC(F)C(F)F,FC(F)C(F)F
+"1-(difluoromethyl)-1,2,2,3,3-pentafluorocyclopropane",CHF2-(-CF-CF2-CF2-),7.77,FC(F)C1(F)C(F)(F)C1(F)F,FC(F)C1(F)C(F)(F)C1(F)F
+"1,1,2,2-tetrafluoroethene",CF2=CF2,,FC(F)=C(F)F,FC(F)=C(F)F
+"1,1-difluoroethene",CF2=CH2,6.33,C=C(F)F,C=C(F)F
+fluoroethene,CHF=CH2,6.62,C=CF,C=CF
+"1,1,2-trifluoroethene",CF2=CHF,7.11,FC=C(F)F,FC=C(F)F
+"1,1,2,3,3,3-hexafluoroprop-1-ene",CF2=CF-CF3,7.25,FC(F)=C(F)C(F)(F)F,FC(F)=C(F)C(F)(F)F
+"2,3,3,3-tetrafluoroprop-1-ene",CH2=CF-CF3,7.63,C=C(F)C(F)(F)F,C=C(F)C(F)(F)F
+"(E)-1,2-difluoroethene",CHF=CHF,8.06,F/C=C/F,F/C=C/F
+"3,3,3-trifluoroprop-1-ene",CH2=CH-CF3,7.93,C=CC(F)(F)F,C=CC(F)(F)F
+"1,1,2-trifluoroprop-1-ene",CF2=CF-CH3,7.96,CC(F)=C(F)F,CC(F)=C(F)F
+"(E)-1,2-difluoroprop-1-ene",CHF=CF-CH3,8.08,C/C(F)=C/F,C/C(F)=C/F
+"(Z)-1,2-difluoroprop-1-ene",CHF=CF-CH3,8.08,C/C(F)=C\F,C/C(F)=C\F
+"(Z)-1,1,1,2,4,4,4-heptafluorobut-2-ene",CF3-CF=CH-CF3,7.41,F/C(=C\C(F)(F)F)C(F)(F)F,F/C(=C\C(F)(F)F)C(F)(F)F
+"1,1,3,3,3-pentafluoropropene",CF2=CH-CF3,7.85,FC(F)=CC(F)(F)F,FC(F)=CC(F)(F)F
+"(E)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,7.94,F/C=C/C(F)(F)F,F/C=C/C(F)(F)F
+"(E)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CHF2,7.94,F/C=C(/F)C(F)F,F/C=C(/F)C(F)F
+"(Z)-1,2,3,3,3-pentafluoro-1-propene",CHF=CF-CF3,7.85,F/C=C(\F)C(F)(F)F,F/C=C(\F)C(F)(F)F
+"1,1-difluoroprop-1-ene",CF2=CH-CH3,8.14,CC=C(F)F,CC=C(F)F
+"1,1,3-trifluoroprop-1-ene",CF2=CH-CH2F,8.09,FCC=C(F)F,FCC=C(F)F
+"1,1,3,3,3-pentafluoro-2-(trifluoromethyl)prop-1-ene",CF2=C-(CF3)2,7.4,FC(F)=C(C(F)(F)F)C(F)(F)F,FC(F)=C(C(F)(F)F)C(F)(F)F
+"1,1,3,3-tetrafluoroprop-1-ene",CF2=CH-CH2F,8.03,FC(F)=CC(F)F,FC(F)=CC(F)F
+"1,1,2,3,3,4,4,4-octafluorobut-1-ene",CF2=CF-CF2-CF3,7.41,FC(F)=C(F)C(F)(F)C(F)(F)F,FC(F)=C(F)C(F)(F)C(F)(F)F
+(E)-1-fluoroprop-1-ene,CHF=CH-CH3,8.27,C/C=C/F,C/C=C/F
+(Z)-1-fluoroprop-1-ene,CHF=CH-CH3,8.28,C/C=C\F,C/C=C\F
+"(E)-1,2,3,3,3-pentafluoroprop-1-ene",CHF=CF-CF3,7.95,F/C=C(/F)C(F)(F)F,F/C=C(/F)C(F)(F)F
+"1,1,3,3,4,4,4-heptafluorobut-1-ene",CF2=CH-CF2-CF3,7.57,FC(F)=CC(F)(F)C(F)(F)F,FC(F)=CC(F)(F)C(F)(F)F
+"(Z)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,7.5,F/C(=C(\F)C(F)(F)F)C(F)(F)F,F/C(=C(\F)C(F)(F)F)C(F)(F)F
+"(E)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,7.6,F/C(=C(/F)C(F)(F)F)C(F)(F)F,F/C(=C(/F)C(F)(F)F)C(F)(F)F
+2-fluoroprop-1-ene,CH3-CF=CH2,8.35,C=C(C)F,C=C(C)F
+"(Z)-1,2-difluoroethene",CHF=CHF,8.44,F/C=C\F,F/C=C\F
+"2-(difluoromethyl)-1,1,3,3,3-pentafluoroprop-1-ene",CF2=C(-CHF2)(-CF3),7.82,FC(F)=C(C(F)F)C(F)(F)F,FC(F)=C(C(F)F)C(F)(F)F
+"(Z)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CF2,8.25,F/C=C(\F)C(F)F,F/C=C(\F)C(F)F
+"(Z)-1,2,3,3,4,4,4-heptafluorobut-1-ene",CHF=CF-CF2-CF3,7.79,F/C=C(/F)C(F)(F)C(F)(F)F,F/C=C(/F)C(F)(F)C(F)(F)F
+"1,1,2,3,4,4,4-heptafluorobut-1-ene",CF2=CF-CHF-CF3,7.82,FC(F)=C(F)C(F)C(F)(F)F,FC(F)=C(F)C(F)C(F)(F)F
+"2,3,3,4,4,4-hexafluorobut-1-ene",CH2=CF-CF2-CF3,7.9,C=C(F)C(F)(F)C(F)(F)F,C=C(F)C(F)(F)C(F)(F)F
+"1,1,2,3,3-pentafluoroprop-1-ene",CF2=CF-CHF2,8.2,FC(F)=C(F)C(F)F,FC(F)=C(F)C(F)F
+"1,1,3,3,4,4,4-heptafluoro-2-(trifluoromethyl)but-1-ene",CF2=C(-CF3)CF2-CF3,7.4,FC(F)=C(C(F)(F)F)C(F)(F)C(F)(F)F,FC(F)=C(C(F)(F)F)C(F)(F)C(F)(F)F
+"(E)-1,3,3,4,4,4-hexafluorobut-1-ene",CHF=CH-CF2-CF3,7.97,F/C=C/C(F)(F)C(F)(F)F,F/C=C/C(F)(F)C(F)(F)F
+"1,1,2,3,3,4,4-heptafluorobut-1-ene",CF2=CF-CF2-CHF2,7.88,FC(F)=C(F)C(F)(F)C(F)F,FC(F)=C(F)C(F)(F)C(F)F
+"1,1,2,3,4,4,4-heptafluoro-3-(trifluoromethyl)but-1-ene",CF2=CF-CF(-CF3)2,7.42,FC(F)=C(F)C(F)(C(F)(F)F)C(F)(F)F,FC(F)=C(F)C(F)(C(F)(F)F)C(F)(F)F
+"(Z)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,8.42,F/C=C\C(F)(F)F,F/C=C\C(F)(F)F
+"1,2,3-trifluorocyclopropene",c-CHF-CF=CF-,7.58,FC1=C(F)C1F,FC1=C(F)C1F
+"1,2,3,3-tetrafluorocyclopropene",c-CF=CF-CF2-,7.98,FC1=C(F)C1(F)F,FC1=C(F)C1(F)F
+"1,2,3,3,4,4-hexafluorocyclobutene",c-CF=CF-CF2-CF2-,7.69,FC1=C(F)C(F)(F)C1(F)F,FC1=C(F)C(F)(F)C1(F)F
+"3-(difluoromethylidene)-1,1,2,2-tetrafluorocyclopropane",CF2=(-C-CF2-CF2-),7.82,FC(F)=C1C(F)(F)C1(F)F,FC(F)=C1C(F)(F)C1(F)F
+"3,3-difluoro-1,2-bis(trifluoromethyl)cyclopropene",c-CF2-C(-CF3)=C(-CF3)-,7.7,FC(F)(F)C1=C(C(F)(F)F)C1(F)F,FC(F)(F)C1=C(C(F)(F)F)C1(F)F
+"1-chloro-1,2,2-trifluoroethene",CCIF=CF2,8.06,FC(F)=C(F)Cl,FC(F)=C(F)Cl
+"2-chloro-1,1,3,3,3-pentafluoroprop-1-ene",CF2=CCI-CF3,7.9,FC(F)=C(Cl)C(F)(F)F,FC(F)=C(Cl)C(F)(F)F
+"(E)-1-chloro-1,2-difluoroethene",CFCI-CHF,8.38,F/C=C(\F)Cl,F/C=C(\F)Cl
+"2-chloro-1,1-difluoroethene",CF2=CHCI,8.44,FC(F)=CCl,FC(F)=CCl
+"1-bromo-1,2,2-trifluoroethene",CBrF=CF2,8.37,FC(F)=C(F)Br,FC(F)=C(F)Br
+"(Z)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,8.14,F/C(Cl)=C(/F)C(F)(F)F,F/C(Cl)=C(/F)C(F)(F)F
+"(E)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,8.13,F/C(Cl)=C(\F)C(F)(F)F,F/C(Cl)=C(\F)C(F)(F)F
+"1,1,1,4,4,4-hexafluorobut-2-yne",CF3C=CCF3,4.8,FC(F)(F)C#CC(F)(F)F,FC(F)(F)C#CC(F)(F)F
+"1,2-difluoroethyne",FC=CF,6.64,FC#CF,FC#CF
+"3,3,3-trifluoroprop-1-yne",CH=C-CF3,7.74,C#CC(F)(F)F,C#CC(F)(F)F
+fluoroethyne,CF-CH,8.41,C#CF,C#CF
+"1,1,3,3-tetrafluoropropa-1,2-diene",CF2=C=CF2,6.43,FC(F)=C=C(F)F,FC(F)=C=C(F)F
+"1,1,3-trifluoropropa-1,2-diene",CF2=C=CHF,7.77,FC=C=C(F)F,FC=C=C(F)F
+"1,1,3,4,4,4-hexafluorobuta-1,2-diene",CF2=C=CF-CF3,7.69,FC(F)=C=C(F)C(F)(F)F,FC(F)=C=C(F)C(F)(F)F
+"propa-1,2-diene",CH2=C=CH2,8.32,C=C=C,C=C=C
+"1,1,4,4,4-pentafluoro-3-(trifluoromethyl)buta-1,2-diene",CF2=C=C-(CF3)2),7.62,FC(F)=C=C(C(F)(F)F)C(F)(F)F,FC(F)=C=C(C(F)(F)F)C(F)(F)F
+trifluoro(methoxy)methane,CF3-O-CH3,7.93,COC(F)(F)F,COC(F)(F)F
+trifluoro(fluoromethoxy)methane,CF3-O-CH2F,7.94,FCOC(F)(F)F,FCOC(F)(F)F
+"1,1,1-trifluoro-2-(trifluoromethoxy)ethane",CF3-CH2-O-CF3,7.72,FC(F)(F)COC(F)(F)F,FC(F)(F)COC(F)(F)F
+methoxymethane,CH3-O-CH3,8.31,COC,COC
+1-(trifluoromethoxy)ethene,CF3-O-CH=CH2,4.23,C=COC(F)(F)F,C=COC(F)(F)F
+"1,1,2-trifluoro-2-(trifluoromethoxy)ethene",CF3-O-CF=CF2,7.05,FC(F)=C(F)OC(F)(F)F,FC(F)=C(F)OC(F)(F)F
+"1,1,3,3,3-pentafluoro-2-(trifluoromethoxy)prop-1-ene",CF3-C=CF2-O-CF3,6.63,FC(F)=C(OC(F)(F)F)C(F)(F)F,FC(F)=C(OC(F)(F)F)C(F)(F)F
+1-fluoro-1-(trifluoromethoxy)ethene,CF3-O-CF=CH2,7.71,C=C(F)OC(F)(F)F,C=C(F)OC(F)(F)F
+"1,1,2,3,3-pentafluoro-3-(trifluoromethoxy)prop-1-ene",CF2=CF-CF2-O-CF3,7.23,FC(F)=C(F)C(F)(F)OC(F)(F)F,FC(F)=C(F)C(F)(F)OC(F)(F)F
+"(E)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF3-CF=CF-O-CF3,7.24,F/C(OC(F)(F)F)=C(/F)C(F)(F)F,F/C(OC(F)(F)F)=C(/F)C(F)(F)F
+"(Z)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF2-O-CF=CF-CF3,7.24,F/C(OC(F)(F)F)=C(\F)C(F)(F)F,F/C(OC(F)(F)F)=C(\F)C(F)(F)F
+"1,1,1,2,2-pentafluoro-2-(1,2,2-trifluoroethenoxy)ethane",CF2=CF-O-CF2-CF3,7.35,FC(F)=C(F)OC(F)(F)C(F)(F)F,FC(F)=C(F)OC(F)(F)C(F)(F)F
+"1,1-difluoro-2,2-bis(trifluoromethoxy)ethene",CF2=C(-O-CF3)2,7.28,FC(F)=C(OC(F)(F)F)OC(F)(F)F,FC(F)=C(OC(F)(F)F)OC(F)(F)F
+"1-[difluoro(trifluoromethoxy)methoxy]-1,2,2-trifluoroethene",CF2=CF-O-CF2-O-CF3,7.29,FC(F)=C(F)OC(F)(F)OC(F)(F)F,FC(F)=C(F)OC(F)(F)OC(F)(F)F
+"2,2,4-trifluoro-1,3-dioxole",c-CH=CF-O-CF2-O-,7.83,FC1=COC(F)(F)O1,FC1=COC(F)(F)O1
+"4-(difluoromethylidene)-2,2-difluoro-1,3-dioxetane",CF2=(-C-O-CF2-O-),7.69,FC(F)=C1OC(F)(F)O1,FC(F)=C1OC(F)(F)O1
+"2,2,3,3,4,5-hexafluorofuran",c-CF=CF-CF2-CF2-O-,7.62,FC1=C(F)C(F)(F)C(F)(F)O1,FC1=C(F)C(F)(F)C(F)(F)O1
+"2,2-difluoro-4-(fluoromethylidene)-1,3-dioxetane",CHF=(-C-O-CF2-O-),7.99,FC=C1OC(F)(F)O1,FC=C1OC(F)(F)O1
+"2,2,4,5-tetrafluoro-1,3-dioxole",c-CF2-O-CF=CF-O-,8.03,FC1=C(F)OC(F)(F)O1,FC1=C(F)OC(F)(F)O1
+"2,2,3-trifluoro-3-(1,2,2-trifluoroethenyl)oxirane",CF2=CF-(-CF-O-CF2-),7.75,FC(F)=C(F)C1(F)OC1(F)F,FC(F)=C(F)C1(F)OC1(F)F
+"2-(difluoromethyl)-2,3,3-trifluorooxirane",CHF2-(-CF-O-CF2-),8.04,FC(F)C1(F)OC1(F)F,FC(F)C1(F)OC1(F)F
+"3,3,3-trifluoro-2-(trifluoromethyl)prop-1-en-1-one",O=C=C-(CF3)2),7.58,O=C=C(C(F)(F)F)C(F)(F)F,O=C=C(C(F)(F)F)C(F)(F)F
+2-fluoroethenone,O=C=CHF,8.11,O=C=CF,O=C=CF
+"2,3,3,4,4,4-hexafluorobut-1-en-1-one",O=C=CF-CF2-CF3,7.88,O=C=C(F)C(F)(F)C(F)(F)F,O=C=C(F)C(F)(F)C(F)(F)F
+"(5S)-3,3,5-trifluoro-1,2,4-trioxolane",c-CF2-O-O-CHF-O-,8.03,F[C@@H]1OOC(F)(F)O1,F[C@@H]1OOC(F)(F)O1
+difluoromethylperoxy(trifluoro)methane,CF3-O-O-CHF2,7.92,FC(F)OOC(F)(F)F,FC(F)OOC(F)(F)F
+trifluoro(methylperoxy)methane,CF3-O-O-CH3,8.25,COOC(F)(F)F,COOC(F)(F)F
+fluoronitrite,FONO,6.74,O=NOF,O=NOF
+"[(Z)-1,2,3,3,3-pentafluoroprop-1-enyl] hypofluorite",CF3CF=CF-OF,7.51,FO/C(F)=C(\F)C(F)(F)F,FO/C(F)=C(\F)C(F)(F)F
+difluoromethyl hypochlorite,CHF2-O-CI,8.16,FC(F)OCl,FC(F)OCl
+[difluoro(methoxy)methyl]hypofluorite,CH3-CF2-O-F,7.87,COC(F)(F)OF,COC(F)(F)OF
+"2,2-difluoroethenyl hypofluorite",CF2=CH-O-F,8.1,FOC=C(F)F,FOC=C(F)F
+[fluoro(trifluoromethoxy)methyl]hypofluorite,CF3-O-CHF-O-F,7.88,FOC(F)OC(F)(F)F,FOC(F)OC(F)(F)F
+"1,2,2,2-tetrafluoroethyl hypofluorite",CF3-CHF-O-F,8.05,FOC(F)C(F)(F)F,FOC(F)C(F)(F)F
+"1,1,1,3,3,3-hexafluoropropan-2-yl hypofluorite",(CF3)2-CH-O-F,7.68,FOC(C(F)(F)F)C(F)(F)F,FOC(C(F)(F)F)C(F)(F)F
+"1,2,2-trifluoroethenyl hypofluorite",CF2=CF-O-F,8.26,FOC(F)=C(F)F,FOC(F)=C(F)F
+"1,1,2,3,3-pentafluoroprop-2-enyl hypofluorite",CF2=CF-CF2-O-F,7.95,FOC(F)(F)C(F)=C(F)F,FOC(F)(F)C(F)=C(F)F
+trifluoromethoxymethyl hypofluorite,CF3-O-CH2-O-F,8.17,FOCOC(F)(F)F,FOCOC(F)(F)F
+fluoromethyl hypofluorite,FC-O-F,8.5,FCOF,FCOF
+formaldehyde,CH2=O,8.02,C=O,C=O
+"2,3,3-trifluoroprop-2-enoyl fluoride",CF(=O)-CF=CF2,8.09,O=C(F)C(F)=C(F)F,O=C(F)C(F)=C(F)F
+"(Z)-1,3,3,3-tetrafluoroprop-1-en-1-ol",CF3-CH=CF-OH,8.02,OC(F)=CC(F)(F)F,OC(F)=CC(F)(F)F
+"3,3-difluoro-2-(trifluoromethyl)prop-2-enoyl fluoride",CF-C(=O)-C(=CF2)-CF3,7.89,O=C(F)C(=C(F)F)C(F)(F)F,O=C(F)C(=C(F)F)C(F)(F)F
+"2,2,3,3,3-pentafluoropropanal",CH(=O)-CF2-CF3,8.06,O=CC(F)(F)C(F)(F)F,O=CC(F)(F)C(F)(F)F
+"1,3,3,3-tetrafluoro-2-(trifluoromethyl)prop-1-en-1-ol",OH-CF=C-(CF3)2,7.75,OC(F)=C(C(F)(F)F)C(F)(F)F,OC(F)=C(C(F)(F)F)C(F)(F)F
+difluoromethanethiol,CHF2-SH,8.07,FC(F)S,FC(F)S
+trifluoromethanethiol,CF3-SH,8.04,FC(F)(F)S,FC(F)(F)S
+trifluoro(trifluoromethylsulfanyl)methane,CF2-S-CF3,7.58,FC(F)(F)SC(F)(F)F,FC(F)(F)SC(F)(F)F
+"1,1,2,2,2-pentafluoroethanethiol",CF3-CF2-SH,7.78,FC(F)(F)C(F)(F)S,FC(F)(F)C(F)(F)S
+"2,2,2-trifluoroethanethial",CF3-CH=S,8.16,FC(F)(F)C=S,FC(F)(F)C=S
+"1,1,1,2,2-pentafluoro-2-(trifluoromethylsulfanyl)ethane",CF3-S-CF2-CF3,7.58,FC(F)(F)SC(F)(F)C(F)(F)F,FC(F)(F)SC(F)(F)C(F)(F)F
+[difluoro(trifluoromethylsulfanyl)methyl]peroxy-trifluoromethane,CF3-O-O-CF2-S-CF3,7.39,FC(F)(F)OOC(F)(F)SC(F)(F)F,FC(F)(F)OOC(F)(F)SC(F)(F)F
+"N,N,1,1-tetrafluoromethanamine",CHF2-NF2,7.16,FC(F)N(F)F,FC(F)N(F)F
+octafluoromethanetetramine,C-(NF2)4,6.75,FN(F)C(N(F)F)(N(F)F)N(F)F,FN(F)C(N(F)F)(N(F)F)N(F)F
+"N-(difluoromethyl)-N,1,1,1-tetrafluoromethanamine",CF3-NF-CHF2,7.57,FC(F)N(F)C(F)(F)F,FC(F)N(F)C(F)(F)F
+"N-(difluoromethyl)-1,1,1-trifluoro-N-(trifluoromethyl)methanamine",C3HF8N,7.41,FC(F)N(C(F)(F)F)C(F)(F)F,FC(F)N(C(F)(F)F)C(F)(F)F
+"2,3,3,3-tetrafluoro-N-(trifluoromethyl)prop-1-en-1-imine",CF3-CF=C=N-CF3,7.45,FC(=C=NC(F)(F)F)C(F)(F)F,FC(=C=NC(F)(F)F)C(F)(F)F
+"2,3,4-trifluoroazete",c-N-CF=CF-CF=N-,8.23,FC1=NC(F)=C1F,FC1=NC(F)=C1F
+"2-diazo-1,1,1-trifluoroethane",N=N=CH-CF3,8.18,[N-]=[N+]=CC(F)(F)F,[N-]=[N+]=CC(F)(F)F
+"1,2,2-trifluoro-N,N-bis(trifluoromethyl)ethenamine",CF2=CF-N-(CFa)2,7.44,FC(F)=C(F)N(C(F)(F)F)C(F)(F)F,FC(F)=C(F)N(C(F)(F)F)C(F)(F)F
+"2,2,2-trifluoro-N-(trifluoromethyl)ethanimine",CF3-CH=N-CF3,8.01,FC(F)(F)/C=N/C(F)(F)F,FC(F)(F)/C=N/C(F)(F)F
+carbon dioxide,CO2,,O=C=O,O=C=O
+ammonia,NH3,8.32,N,N
+"1,1,1,2-tetrafluoroethane",CF3CH2F,,FCC(F)(F)F,FCC(F)(F)F
+"1,1,1,2,3,3,3-heptafluoropropane",CF3CHFCF3,,FC(C(F)(F)F)C(F)(F)F,FC(C(F)(F)F)C(F)(F)F
+pentafluoroethane,CHF2CF3,,FC(F)C(F)(F)F,FC(F)C(F)(F)F
+"1,1,1-trifluoroethane",CF3CH3,,CC(F)(F)F,CC(F)(F)F

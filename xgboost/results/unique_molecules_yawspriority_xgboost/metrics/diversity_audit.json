@@ -1,0 +1,12 @@
+{
+  "n_benchmark_molecules": 6972,
+  "n_butina_clusters": 935,
+  "largest_cluster_size": 1512,
+  "median_cluster_size": 2.0,
+  "singleton_clusters": 425,
+  "train_val_test_sizes": {
+    "train": 5577,
+    "val": 698,
+    "test": 697
+  }
+}

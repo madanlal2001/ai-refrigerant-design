@@ -1,0 +1,380 @@
+name,smiles,Tc (K),Pc (bar),omega (-),source,value_sources,canonical_smiles,_class
+actinium,[Ac],11010.67,,,yaws,Tc:yaws|Pc:-|omega:-,[Ac],inorganic_or_metal_containing
+aluminum,[Al],9300.0,5700.0,-0.3054,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Al],inorganic_or_metal_containing
+aluminum borohydride,[Al+3].[BH4-].[BH4-].[BH4-],513.77,112.46,0.436,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Al+3].[BH4-].[BH4-].[BH4-],multi_fragment_salt_or_mixture
+aluminum bromide,[Br][Al]([Br])[Br],763.0,28.9,0.399,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Al]([Br])[Br],inorganic_or_metal_containing
+aluminum chloride,[Cl][Al]([Cl])[Cl],629.0,26.3,0.3555,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Al]([Cl])[Cl],inorganic_or_metal_containing
+aluminum fluoride,[Al+3].[F-].[F-].[F-],2948.13,98.81,0.356,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Al+3].[F-].[F-].[F-],multi_fragment_salt_or_mixture
+aluminum iodide,[I][Al]([I])[I],983.0,35.95,0.349,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Al]([I])[I],inorganic_or_metal_containing
+aluminum oxide,[Al+3].[Al+3].[O-2].[O-2].[O-2],5335.0,1953.2,1.2,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Al+3].[Al+3].[O-2].[O-2].[O-2],multi_fragment_salt_or_mixture
+americium,[Am],6514.79,,,yaws,Tc:yaws|Pc:-|omega:-,[Am],inorganic_or_metal_containing
+ammonium bromide,[Br-].[NH4+],1089.82,17.94,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br-].[NH4+],multi_fragment_salt_or_mixture
+ammonium carbamate,NC(=O)[O-].[NH4+],539.82,44.51,0.12,yaws,Tc:yaws|Pc:yaws|omega:yaws,NC(=O)[O-].[NH4+],multi_fragment_salt_or_mixture
+ammonium chloride,[Cl-].[NH4+],882.0,16.4,3.92,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[NH4+],multi_fragment_salt_or_mixture
+ammonium cyanide,[C-]#N.[NH4+],491.32,109.47,0.425,yaws,Tc:yaws|Pc:yaws|omega:yaws,[C-]#N.[NH4+],multi_fragment_salt_or_mixture
+ammonium iodide,[I-].[NH4+],1104.32,18.18,,yaws,Tc:yaws|Pc:yaws|omega:-,[I-].[NH4+],multi_fragment_salt_or_mixture
+ammonium thiocyanate,N#C[S-].[NH4+],854.0,82.3,0.359,yaws,Tc:yaws|Pc:yaws|omega:yaws,N#C[S-].[NH4+],multi_fragment_salt_or_mixture
+antimony,[Sb],5070.0,3865.6,,yaws,Tc:yaws|Pc:yaws|omega:-,[Sb],inorganic_or_metal_containing
+antimony (III) oxide,[O]=[Sb+],2765.72,228.06,0.604,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O]=[Sb+],inorganic_or_metal_containing
+antimony (V) fluoride,[F][Sb]([F])([F])([F])[F],653.38,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Sb]([F])([F])([F])[F],inorganic_or_metal_containing
+antimony (V) iodide,[I][Sb]([I])([I])([I])[I],1096.7,,,yaws,Tc:yaws|Pc:-|omega:-,[I][Sb]([I])([I])([I])[I],inorganic_or_metal_containing
+antimony pentachloride,[Cl][Sb]([Cl])([Cl])([Cl])[Cl],662.54,39.42,0.129,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Sb]([Cl])([Cl])([Cl])[Cl],inorganic_or_metal_containing
+antimony tribromide,[Br][Sb]([Br])[Br],904.0,73.62,0.269,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Sb]([Br])[Br],inorganic_or_metal_containing
+antimony trichloride,[Cl][Sb]([Cl])[Cl],794.0,48.2,0.171,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Sb]([Cl])[Cl],inorganic_or_metal_containing
+antimony triiodide,[I][Sb]([I])[I],1102.0,90.54,0.33,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Sb]([I])[I],inorganic_or_metal_containing
+argon,[Ar],150.86,48.98,0.0,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ar],inorganic_or_metal_containing
+arsenic,[As],1673.0,223.0,-0.368,yaws,Tc:yaws|Pc:yaws|omega:yaws,[As],inorganic_or_metal_containing
+arsenic (III) bromide,Br[As](Br)Br,789.01,66.4,0.298,yaws,Tc:yaws|Pc:yaws|omega:yaws,Br[As](Br)Br,inorganic_or_metal_containing
+arsenic (III) sulfide,S=[As+],1608.24,68.38,,yaws,Tc:yaws|Pc:yaws|omega:-,S=[As+],inorganic_or_metal_containing
+arsenic pentafluoride,F[As](F)(F)(F)F,357.73,41.13,0.106,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[As](F)(F)(F)F,inorganic_or_metal_containing
+arsenic sulfide,S=[As],1314.59,28.47,,yaws,Tc:yaws|Pc:yaws|omega:-,S=[As],inorganic_or_metal_containing
+arsenic trichloride,Cl[As](Cl)Cl,654.0,59.12,0.22,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[As](Cl)Cl,inorganic_or_metal_containing
+arsenic trifluoride,F[As](F)F,530.21,87.81,0.363,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[As](F)F,inorganic_or_metal_containing
+arsenic triiodide,I[As](I)I,1101.22,99.06,0.357,yaws,Tc:yaws|Pc:yaws|omega:yaws,I[As](I)I,inorganic_or_metal_containing
+arsine,[AsH3],373.0,65.5,0.0105,yaws,Tc:yaws|Pc:yaws|omega:yaws,[AsH3],inorganic_or_metal_containing
+astatine,[At],1096.37,1236.3,0.641,yaws,Tc:yaws|Pc:yaws|omega:yaws,[At],inorganic_or_metal_containing
+barium,[Ba],3572.13,381.4,0.264,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ba],inorganic_or_metal_containing
+beryllium,[Be],5205.0,392.0,0.2274,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Be],inorganic_or_metal_containing
+beryllium borohydride,[BH4-].[BH4-].[Be+2],591.45,48.77,0.147,yaws,Tc:yaws|Pc:yaws|omega:yaws,[BH4-].[BH4-].[Be+2],multi_fragment_salt_or_mixture
+beryllium bromide,[Be+2].[Br-].[Br-],1216.86,100.34,0.361,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Be+2].[Br-].[Br-],multi_fragment_salt_or_mixture
+beryllium chloride,[Be+2].[Cl-].[Cl-],1238.03,102.09,0.366,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Be+2].[Cl-].[Cl-],multi_fragment_salt_or_mixture
+beryllium iodide,[Be+2].[I-].[I-],1238.03,102.09,0.366,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Be+2].[I-].[I-],multi_fragment_salt_or_mixture
+bismuth,[Bi],4620.0,770.0,-0.2366,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Bi],inorganic_or_metal_containing
+bismuth fluoride,[F][Bi]([F])[F],1971.01,385.21,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Bi]([F])[F],inorganic_or_metal_containing
+bismuth oxide,[O]=[Bi],3367.96,448.26,,yaws,Tc:yaws|Pc:yaws|omega:-,[O]=[Bi],inorganic_or_metal_containing
+bismuth pentafluoride,[F][Bi]([F])([F])([F])[F],470.0,57.16,0.504,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][Bi]([F])([F])([F])[F],inorganic_or_metal_containing
+bismuth tribromide,[Br][Bi]([Br])[Br],1220.0,98.6,0.288,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Bi]([Br])[Br],inorganic_or_metal_containing
+bismuth trichloride,[Cl][Bi]([Cl])[Cl],1179.0,120.0,0.304,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Bi]([Cl])[Cl],inorganic_or_metal_containing
+bismuth triiodide,[I][Bi]([I])[I],1404.0,112.55,,yaws,Tc:yaws|Pc:yaws|omega:-,[I][Bi]([I])[I],inorganic_or_metal_containing
+borazine,B1NBNBN1,521.2,36.34,0.092,yaws,Tc:yaws|Pc:yaws|omega:yaws,B1NBNBN1,inorganic_or_metal_containing
+boric acid,OB(O)O,289.8,40.53,0.1254,yaws,Tc:yaws|Pc:yaws|omega:yaws,OB(O)O,inorganic_or_metal_containing
+boron,[B],7934.59,8417.5,0.826,yaws,Tc:yaws|Pc:yaws|omega:yaws,[B],inorganic_or_metal_containing
+boron tribromide,BrB(Br)Br,581.0,48.66,0.216,yaws,Tc:yaws|Pc:yaws|omega:yaws,BrB(Br)Br,inorganic_or_metal_containing
+boron trichloride,ClB(Cl)Cl,451.95,38.71,0.1505,yaws,Tc:yaws|Pc:yaws|omega:yaws,ClB(Cl)Cl,inorganic_or_metal_containing
+boron trifluoride,FB(F)F,260.9,49.9,0.4337,yaws,Tc:yaws|Pc:yaws|omega:yaws,FB(F)F,inorganic_or_metal_containing
+boron triiodide,IB(I)I,773.0,60.59,,yaws,Tc:yaws|Pc:yaws|omega:-,IB(I)I,inorganic_or_metal_containing
+bromine,[Br],584.15,103.35,0.1189,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br],bare_element_no_hydrogens
+cadmium,[Cd],2291.0,861.7,0.05,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cd],inorganic_or_metal_containing
+cadmium chloride,[Cd+2].[Cl-].[Cl-],2019.79,166.55,0.511,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cd+2].[Cl-].[Cl-],multi_fragment_salt_or_mixture
+cadmium fluoride,[Cd+2].[F-].[F-],3296.66,271.84,0.656,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cd+2].[F-].[F-],multi_fragment_salt_or_mixture
+cadmium iodide,[Cd+2].[I-].[I-],1741.29,143.59,0.467,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cd+2].[I-].[I-],multi_fragment_salt_or_mixture
+cadmium oxide,[Cd+2].[O-2],2983.96,246.06,0.626,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cd+2].[O-2],multi_fragment_salt_or_mixture
+calcium,[Ca],3267.0,153.0,0.1167,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ca],inorganic_or_metal_containing
+calcium chloride,[Ca+2].[Cl-].[Cl-],3620.0,,,yaws,Tc:yaws|Pc:-|omega:-,[Ca+2].[Cl-].[Cl-],multi_fragment_salt_or_mixture
+calcium fluoride,[Ca+2].[F-].[F-],4570.85,376.91,0.752,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ca+2].[F-].[F-],multi_fragment_salt_or_mixture
+calcium oxide,[Ca+2].[O-2],6020.0,,,yaws,Tc:yaws|Pc:-|omega:-,[Ca+2].[O-2],multi_fragment_salt_or_mixture
+carbon (amphorous),[C],6810.0,2230.0,0.3268,yaws,Tc:yaws|Pc:yaws|omega:yaws,[C],bare_element_no_hydrogens
+cerium,[Ce],11993.8,,,yaws,Tc:yaws|Pc:-|omega:-,[Ce],inorganic_or_metal_containing
+cesium,[Cs],1938.0,94.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cs],inorganic_or_metal_containing
+cesium bromide,[Br-].[Cs+],2562.13,211.27,0.581,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Cs+],multi_fragment_salt_or_mixture
+cesium chloride,[Cl-].[Cs+],2562.13,211.27,0.581,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cs+],multi_fragment_salt_or_mixture
+cesium fluoride,[Cs+].[F-],2482.33,204.69,0.572,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cs+].[F-],multi_fragment_salt_or_mixture
+cesium iodide,[Cs+].[I-],2529.56,208.59,0.577,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cs+].[I-],multi_fragment_salt_or_mixture
+chlorine,[Cl],417.15,77.11,0.069,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl],bare_element_no_hydrogens
+chlorodimethylsilane,C[SiH](C)Cl,472.0,36.2,0.253,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH](C)Cl,inorganic_or_metal_containing
+chlorotrimethylsilane,C[Si](C)(C)Cl,497.75,32.0,0.2701,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)Cl,inorganic_or_metal_containing
+chromium,[Cr],8560.93,5784.1,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cr],inorganic_or_metal_containing
+cobalt,[Co],7398.48,5148.7,,yaws,Tc:yaws|Pc:yaws|omega:-,[Co],inorganic_or_metal_containing
+cobalt chloride,[Cl][Co][Cl],2154.97,177.7,0.53,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Co][Cl],inorganic_or_metal_containing
+copper,[Cu],5123.0,6415.5,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cu],inorganic_or_metal_containing
+copper iodide,[I][Cu][I],2620.77,216.11,0.588,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Cu][I],inorganic_or_metal_containing
+cumene hydroperoxide,CC(C)c1ccccc1.[O-]O,605.0,33.4,0.995,yaws,Tc:yaws|Pc:yaws|omega:yaws,CC(C)c1ccccc1.[O-]O,multi_fragment_salt_or_mixture
+cupric chloride,[Cl][Cu][Cl],2010.0,170.04,0.623,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Cu][Cl],inorganic_or_metal_containing
+cuprous bromide,[Cu][Br],2651.71,218.66,0.591,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cu][Br],inorganic_or_metal_containing
+cuprous chloride,[Cl][Cu],2435.0,236.79,1.664,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Cu],inorganic_or_metal_containing
+decamethylcyclopentasiloxane,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,619.15,11.6,0.666,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,inorganic_or_metal_containing
+decamethyltetrasiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,599.4,12.27,0.673,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+dichlorodimethylsilane,C[Si](C)(Cl)Cl,520.35,34.9,0.268,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(Cl)Cl,inorganic_or_metal_containing
+dichlorodiphenylsilane,Cl[Si](Cl)(c1ccccc1)c1ccccc1,814.0,23.3,0.428,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Si](Cl)(c1ccccc1)c1ccccc1,inorganic_or_metal_containing
+dichloromethylphenylsilane,ClC(Cl)[SiH2]c1ccccc1,689.0,28.7,0.402,yaws,Tc:yaws|Pc:yaws|omega:yaws,ClC(Cl)[SiH2]c1ccccc1,inorganic_or_metal_containing
+dichlorovinylmethylsilane,[SiH3]CC=C(Cl)Cl,544.1,29.4,0.293,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]CC=C(Cl)Cl,inorganic_or_metal_containing
+digermane,[GeH3][GeH3],491.01,46.67,0.165,yaws,Tc:yaws|Pc:yaws|omega:yaws,[GeH3][GeH3],inorganic_or_metal_containing
+dimethoxydimethylsilane,CO[Si](C)(C)OC,524.0,26.6,0.263,yaws,Tc:yaws|Pc:yaws|omega:yaws,CO[Si](C)(C)OC,inorganic_or_metal_containing
+dimethyl silane,C[SiH2]C,402.0,35.6,0.13,finetune+yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH2]C,inorganic_or_metal_containing
+dimethylaluminum chloride,[CH3][Al]([CH3])[Cl],619.0,36.2,0.183,yaws,Tc:yaws|Pc:yaws|omega:yaws,[CH3][Al]([CH3])[Cl],inorganic_or_metal_containing
+"diselenide, carbon",[Se]=C=[Se],665.03,77.18,,yaws,Tc:yaws|Pc:yaws|omega:-,[Se]=C=[Se],inorganic_or_metal_containing
+disilane,[SiH3][SiH3],432.0,51.3,0.0939,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3][SiH3],inorganic_or_metal_containing
+"disilane, hexachloro",Cl[Si](Cl)(Cl)[Si](Cl)(Cl)Cl,660.96,29.11,0.035,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Si](Cl)(Cl)[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+"disilane, hexafluoro",F[Si](F)(F)[Si](F)(F)F,411.33,30.16,0.022,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](F)(F)[Si](F)(F)F,inorganic_or_metal_containing
+disiloxane,[SiH3]O[SiH3],416.86,36.19,0.078,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]O[SiH3],inorganic_or_metal_containing
+"disiloxane, hexachloro",Cl[Si](Cl)(Cl)O[Si](Cl)(Cl)Cl,655.58,27.9,0.022,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Si](Cl)(Cl)O[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+"disiloxane, trichlorotrifluoro",F[Si](F)(F)O[Si](Cl)(Cl)Cl,508.78,26.77,,yaws,Tc:yaws|Pc:yaws|omega:-,F[Si](F)(F)O[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+dodecamethylpentasiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,628.4,9.45,0.726,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+dysprosium,[Dy],8561.5,,,yaws,Tc:yaws|Pc:-|omega:-,[Dy],inorganic_or_metal_containing
+erbium,[Er],9714.25,,,yaws,Tc:yaws|Pc:-|omega:-,[Er],inorganic_or_metal_containing
+europium,[Eu],5150.0,3547.9,,yaws,Tc:yaws|Pc:yaws|omega:-,[Eu],inorganic_or_metal_containing
+ferric chloride,[Cl][Fe]([Cl])[Cl],948.15,43.0,0.1741,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Fe]([Cl])[Cl],inorganic_or_metal_containing
+ferrous chloride,[Cl][Fe][Cl],2010.0,87.2,0.5271,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Fe][Cl],inorganic_or_metal_containing
+fluorine,[F],144.12,51.72,0.053,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F],bare_element_no_hydrogens
+francium,[Fr],1606.46,1790.2,0.682,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Fr],inorganic_or_metal_containing
+gadolinium,[Gd],11309.81,,,yaws,Tc:yaws|Pc:-|omega:-,[Gd],inorganic_or_metal_containing
+gallium,[Ga],7620.0,5126.3,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ga],inorganic_or_metal_containing
+gallium (II) chloride,[Cl-].[Cl-].[Ga+2],1216.16,,,yaws,Tc:yaws|Pc:-|omega:-,[Cl-].[Cl-].[Ga+2],multi_fragment_salt_or_mixture
+gallium (III) bromide,[Br][Ga]([Br])[Br],806.7,,,yaws,Tc:yaws|Pc:-|omega:-,[Br][Ga]([Br])[Br],inorganic_or_metal_containing
+gallium (III) iodide,[I][Ga]([I])[I],951.0,,,yaws,Tc:yaws|Pc:-|omega:-,[I][Ga]([I])[I],inorganic_or_metal_containing
+gallium trichloride,[Cl-].[Cl-].[Cl-].[Ga+3],694.0,38.2,0.4577,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cl-].[Cl-].[Ga+3],multi_fragment_salt_or_mixture
+germane,[GeH4],312.2,49.5,0.1506,yaws,Tc:yaws|Pc:yaws|omega:yaws,[GeH4],inorganic_or_metal_containing
+"germane, bromo",[GeH3][Br],515.2,66.61,,yaws,Tc:yaws|Pc:yaws|omega:-,[GeH3][Br],inorganic_or_metal_containing
+"germane, chloro",[Cl][GeH3],478.44,61.75,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][GeH3],inorganic_or_metal_containing
+"germane, chlorotrifluoro",[F][Ge]([F])([F])[Cl],388.45,42.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Ge]([F])([F])[Cl],inorganic_or_metal_containing
+"germane, dibromo",[Br][GeH2][Br],563.33,57.28,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br][GeH2][Br],inorganic_or_metal_containing
+"germane, dichloro",[Cl][GeH2][Cl],535.61,54.3,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][GeH2][Cl],inorganic_or_metal_containing
+"germane, dichlorodifluoro",[F][Ge]([F])([Cl])[Cl],413.69,37.97,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Ge]([F])([Cl])[Cl],inorganic_or_metal_containing
+"germane, methyl",[CH3][GeH3],392.94,48.68,,yaws,Tc:yaws|Pc:yaws|omega:-,[CH3][GeH3],inorganic_or_metal_containing
+"germane, trichloro",[Cl][GeH]([Cl])[Cl],559.78,46.21,0.17,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][GeH]([Cl])[Cl],inorganic_or_metal_containing
+"germane, trichlorofluoro",[F][Ge]([Cl])([Cl])[Cl],473.51,37.62,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Ge]([Cl])([Cl])[Cl],inorganic_or_metal_containing
+germanium,[Ge],9803.0,6511.0,-0.0715,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ge],inorganic_or_metal_containing
+germanium (IV) fluoride,[F][Ge]([F])([F])[F],365.04,47.75,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Ge]([F])([F])[F],inorganic_or_metal_containing
+germanium (IV) iodide,[I][Ge]([I])([I])[I],973.0,56.59,,yaws,Tc:yaws|Pc:yaws|omega:-,[I][Ge]([I])([I])[I],inorganic_or_metal_containing
+germanium bromide,[Br][Ge][Br],718.0,44.17,0.169,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Ge][Br],inorganic_or_metal_containing
+germanium chloride,[Cl][Ge][Cl],553.2,38.61,0.123,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Ge][Cl],inorganic_or_metal_containing
+gold,[Au],4398.0,6354.4,,yaws,Tc:yaws|Pc:yaws|omega:-,[Au],inorganic_or_metal_containing
+hafnium,[Hf],16861.98,,,yaws,Tc:yaws|Pc:-|omega:-,[Hf],inorganic_or_metal_containing
+hafnium (IV) bromide,[Br][Hf]([Br])([Br])[Br],746.0,56.31,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br][Hf]([Br])([Br])[Br],inorganic_or_metal_containing
+hafnium (IV) chloride,[Cl-].[Cl-].[Cl-].[Cl-].[Hf+4],725.7,54.2,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Cl-].[Cl-].[Hf+4],multi_fragment_salt_or_mixture
+hafnium (IV) iodide,[Hf+4].[I-].[I-].[I-].[I-],916.0,49.92,,yaws,Tc:yaws|Pc:yaws|omega:-,[Hf+4].[I-].[I-].[I-].[I-],multi_fragment_salt_or_mixture
+hafnium fluoride,[F-].[F-].[F-].[F-].[Hf+4],1578.98,232.31,,yaws,Tc:yaws|Pc:yaws|omega:-,[F-].[F-].[F-].[F-].[Hf+4],multi_fragment_salt_or_mixture
+hexadecamethylheptasiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,671.8,6.77,0.887,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+hexamethylcyclotrisiloxane,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O1,554.2,16.63,0.474,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O1,inorganic_or_metal_containing
+hexamethyldisilazane,C[Si](C)(C)N[Si](C)(C)C,544.0,19.2,0.51,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)N[Si](C)(C)C,inorganic_or_metal_containing
+hexamethyldisiloxane,C[Si](C)(C)O[Si](C)(C)C,518.7,19.14,0.415,finetune+yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+holmium,[Ho],9067.21,,,yaws,Tc:yaws|Pc:-|omega:-,[Ho],inorganic_or_metal_containing
+hydrogen selenide,[SeH2],411.15,89.2,0.0542,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SeH2],inorganic_or_metal_containing
+hydrogen telluride,[TeH2],438.04,71.93,0.289,yaws,Tc:yaws|Pc:yaws|omega:yaws,[TeH2],inorganic_or_metal_containing
+indium,[In],6730.0,2432.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[In],inorganic_or_metal_containing
+iodine,[I],819.15,116.54,0.1115,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I],bare_element_no_hydrogens
+iridium,[Ir],15035.0,72356.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ir],inorganic_or_metal_containing
+iron,[Fe],9340.0,10150.0,-0.0106,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Fe],inorganic_or_metal_containing
+krypton,[Kr],209.35,55.02,,yaws,Tc:yaws|Pc:yaws|omega:-,[Kr],inorganic_or_metal_containing
+lanthanum,[La],9511.0,5460.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[La],inorganic_or_metal_containing
+lead,[Pb],5400.0,861.3,,yaws,Tc:yaws|Pc:yaws|omega:-,[Pb],inorganic_or_metal_containing
+lead bromide,[Br][Pb][Br],1933.47,159.43,0.498,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Pb][Br],inorganic_or_metal_containing
+lead chloride,[Cl][Pb][Cl],1998.62,164.81,0.507,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Pb][Cl],inorganic_or_metal_containing
+lead fluoride,[F][Pb][F],2550.73,210.33,0.58,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][Pb][F],inorganic_or_metal_containing
+lead iodide,[I][Pb][I],1865.07,153.79,0.487,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Pb][I],inorganic_or_metal_containing
+lead oxide,[O]=[Pb],2842.26,234.37,0.612,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O]=[Pb],inorganic_or_metal_containing
+lead sulfide,[S]=[Pb],2531.19,208.72,0.577,yaws,Tc:yaws|Pc:yaws|omega:yaws,[S]=[Pb],inorganic_or_metal_containing
+lithium,[Li],2966.0,217.87,-0.0556,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Li],inorganic_or_metal_containing
+lithium bromide,[Br-].[Li+],2578.42,212.62,0.583,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Li+],multi_fragment_salt_or_mixture
+lithium chloride,[Cl-].[Li+],2695.68,222.29,0.596,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Li+],multi_fragment_salt_or_mixture
+lithium fluoride,[F-].[Li+],3182.65,262.44,0.645,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[Li+],multi_fragment_salt_or_mixture
+lithium iodide,[I-].[Li+],2370.0,170.0,0.457,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[Li+],multi_fragment_salt_or_mixture
+lutetium,[Lu],4128.66,5162.9,,yaws,Tc:yaws|Pc:yaws|omega:-,[Lu],inorganic_or_metal_containing
+magnesium,[Mg],2241.04,2802.4,,yaws,Tc:yaws|Pc:yaws|omega:-,[Mg],inorganic_or_metal_containing
+magnesium chloride,[Cl-].[Cl-].[Mg+2],2754.32,227.12,0.602,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cl-].[Mg+2],multi_fragment_salt_or_mixture
+magnesium nitrate,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Mg+2],989.0,,,yaws,Tc:yaws|Pc:-|omega:-,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[Mg+2],multi_fragment_salt_or_mixture
+magnesium oxide,[Mg+2].[O-2],5950.0,33.91,0.2137,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Mg+2].[O-2],multi_fragment_salt_or_mixture
+manganese,[Mn],6902.82,4871.7,,yaws,Tc:yaws|Pc:yaws|omega:-,[Mn],inorganic_or_metal_containing
+manganese (II) chloride,[Cl-].[Cl-].[Mn+2],2382.98,196.5,0.56,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cl-].[Mn+2],multi_fragment_salt_or_mixture
+mercuric bromide,[Br][Hg][Br],1012.0,79.53,0.292,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Hg][Br],inorganic_or_metal_containing
+mercuric chloride,[Cl][Hg][Cl],973.0,77.51,0.284,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Hg][Cl],inorganic_or_metal_containing
+mercuric iodide,[I][Hg][I],1072.0,100.0,0.189,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Hg][I],inorganic_or_metal_containing
+mercury,[Hg],1735.0,1608.0,-0.1644,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Hg],inorganic_or_metal_containing
+mercury (I) chloride,[Cl][Hg],1115.0,206.73,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][Hg],inorganic_or_metal_containing
+methyl chlorosilane,C[SiH2]Cl,442.0,41.7,0.225,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH2]Cl,inorganic_or_metal_containing
+methyl dichlorosilane,C[SiH](Cl)Cl,483.0,39.5,0.276,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH](Cl)Cl,inorganic_or_metal_containing
+methyl silane,C[SiH3],352.5,48.4,0.139,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH3],inorganic_or_metal_containing
+methyl trichlorosilane,C[Si](Cl)(Cl)Cl,517.0,35.3,0.263,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+methylmercury chloride,[CH3][Hg][Cl],741.32,125.76,,yaws,Tc:yaws|Pc:yaws|omega:-,[CH3][Hg][Cl],inorganic_or_metal_containing
+methylstannane,[CH3][SnH3],438.71,46.72,,yaws,Tc:yaws|Pc:yaws|omega:-,[CH3][SnH3],inorganic_or_metal_containing
+molybdenum,[Mo],9620.0,10349.0,0.924,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Mo],inorganic_or_metal_containing
+molybdenum (V) chloride,[Cl][Mo]([Cl])([Cl])([Cl])[Cl],850.0,47.2,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][Mo]([Cl])([Cl])([Cl])[Cl],inorganic_or_metal_containing
+molybdenum (V) fluoride,[F][Mo]([F])([F])([F])[F],772.5,84.67,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Mo]([F])([F])([F])[F],inorganic_or_metal_containing
+molybdenum fluoride,[F][Mo]([F])([F])[F],473.0,47.5,0.189,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][Mo]([F])([F])[F],inorganic_or_metal_containing
+molybdenum oxide,[O]=[Mo],2319.46,191.26,0.552,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O]=[Mo],inorganic_or_metal_containing
+neodymium,[Nd],10665.1,6892.1,,yaws,Tc:yaws|Pc:yaws|omega:-,[Nd],inorganic_or_metal_containing
+neon,[Ne],44.4,26.53,-0.0395,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ne],inorganic_or_metal_containing
+nickel,[Ni],6986.15,4918.5,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ni],inorganic_or_metal_containing
+nickel fluoride,[F][Ni][F],3278.75,270.37,0.654,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][Ni][F],inorganic_or_metal_containing
+niobium,[Nb],17904.1,10418.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Nb],inorganic_or_metal_containing
+niobium (V) bromide,[Br-].[Br-].[Br-].[Br-].[Br-].[Nb+5],954.75,46.15,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br-].[Br-].[Br-].[Br-].[Br-].[Nb+5],multi_fragment_salt_or_mixture
+niobium (V) chloride,[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Nb+5],803.5,48.8,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Nb+5],multi_fragment_salt_or_mixture
+niobium (V) fluoride,[F-].[F-].[F-].[F-].[F-].[Nb+5],737.0,62.8,0.241,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[F-].[F-].[F-].[F-].[Nb+5],multi_fragment_salt_or_mixture
+nitrogen,[N],126.2,34.6,0.0377,yaws,Tc:yaws|Pc:yaws|omega:yaws,[N],bare_element_no_hydrogens
+octachlorotrisilane,Cl[Si](Cl)(Cl)[Si](Cl)(Cl)[Si](Cl)(Cl)Cl,775.41,24.7,,yaws,Tc:yaws|Pc:yaws|omega:-,Cl[Si](Cl)(Cl)[Si](Cl)(Cl)[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+octadecamethyloctasiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,688.9,6.24,0.984,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+octamethylcyclotetrasiloxane,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,586.5,13.32,0.589,finetune+yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,inorganic_or_metal_containing
+octamethyltrisiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,564.4,14.4,0.533,finetune+yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+osmium,[Os],16878.7,9938.9,,yaws,Tc:yaws|Pc:yaws|omega:-,[Os],inorganic_or_metal_containing
+osmium (IV) chloride,[Cl][Os]([Cl])([Cl])[Cl],1357.65,,,yaws,Tc:yaws|Pc:-|omega:-,[Cl][Os]([Cl])([Cl])[Cl],inorganic_or_metal_containing
+osmium (V) fluoride,[F][Os]([F])([F])([F])[F],939.36,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Os]([F])([F])([F])[F],inorganic_or_metal_containing
+osmium (VI) fluoride,[F][Os]([F])([F])([F])([F])[F],581.16,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Os]([F])([F])([F])([F])[F],inorganic_or_metal_containing
+osmium tetroxide,[O]=[Os](=[O])(=[O])=[O],678.0,54.14,0.178,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O]=[Os](=[O])(=[O])=[O],inorganic_or_metal_containing
+oxygen,[O],154.58,50.43,0.0222,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O],bare_element_no_hydrogens
+palladium,[Pd],10669.1,6894.1,,yaws,Tc:yaws|Pc:yaws|omega:-,[Pd],inorganic_or_metal_containing
+phosphonium chloride,[Cl-].[PH4+],322.3,73.7,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[PH4+],multi_fragment_salt_or_mixture
+phosphonium iodide,[I-].[PH4+],539.7,77.61,0.326,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[PH4+],multi_fragment_salt_or_mixture
+phosphorus (black),[P],994.0,83.29,0.032,yaws,Tc:yaws|Pc:yaws|omega:yaws,[P],bare_element_no_hydrogens
+phosphorus (V) sulfide chloride difluoride,[Cl-].[F-].[F-].[P+3]=S,439.2,41.4,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[F-].[F-].[P+3]=S,multi_fragment_salt_or_mixture
+phosphorus (V) sulfide trifluoride,[F-].[F-].[F-].[P+3]=S,346.0,38.2,,yaws,Tc:yaws|Pc:yaws|omega:-,[F-].[F-].[F-].[P+3]=S,multi_fragment_salt_or_mixture
+platinum,[Pt],6983.0,8105.9,,yaws,Tc:yaws|Pc:yaws|omega:-,[Pt],inorganic_or_metal_containing
+plutonium,[Pu],11130.13,,,yaws,Tc:yaws|Pc:-|omega:-,[Pu],inorganic_or_metal_containing
+polonium,[Po],3013.08,2515.3,0.011,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Po],inorganic_or_metal_containing
+potassium,[K],2223.0,160.0,-0.2028,yaws,Tc:yaws|Pc:yaws|omega:yaws,[K],inorganic_or_metal_containing
+potassium bromide,[Br-].[K+],3520.0,115.52,0.596,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[K+],multi_fragment_salt_or_mixture
+potassium chloride,[Cl-].[K+],3470.0,180.0,-0.1212,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[K+],multi_fragment_salt_or_mixture
+potassium fluoride,[F-].[K+],2891.12,238.4,0.617,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[K+],multi_fragment_salt_or_mixture
+potassium hydroxide,[K+].[OH-],2624.0,214.88,0.586,yaws,Tc:yaws|Pc:yaws|omega:yaws,[K+].[OH-],multi_fragment_salt_or_mixture
+potassium iodide,[I-].[K+],3610.0,97.3,-0.4198,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[K+],multi_fragment_salt_or_mixture
+praseodymium,[Pr],12306.26,,,yaws,Tc:yaws|Pc:-|omega:-,[Pr],inorganic_or_metal_containing
+promethium,[Pm],10228.86,,,yaws,Tc:yaws|Pc:-|omega:-,[Pm],inorganic_or_metal_containing
+radium,[Ra],4862.82,3684.3,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ra],inorganic_or_metal_containing
+radon,[Rn],377.0,62.8,,yaws,Tc:yaws|Pc:yaws|omega:-,[Rn],inorganic_or_metal_containing
+rhenium,[Re],21482.8,12047.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Re],inorganic_or_metal_containing
+rhenium (III) bromide,[Br][Re]([Br])[Br],1226.09,,,yaws,Tc:yaws|Pc:-|omega:-,[Br][Re]([Br])[Br],inorganic_or_metal_containing
+rhenium (V) fluoride,[F][Re]([F])([F])([F])[F],774.1,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Re]([F])([F])([F])[F],inorganic_or_metal_containing
+rhenium (VI) fluoride,[F][Re]([F])([F])([F])([F])[F],472.97,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Re]([F])([F])([F])([F])[F],inorganic_or_metal_containing
+rhenium (VII) fluoride,[F][Re]([F])([F])([F])([F])([F])[F],526.62,,,yaws,Tc:yaws|Pc:-|omega:-,[F][Re]([F])([F])([F])([F])([F])[F],inorganic_or_metal_containing
+rhenium (VII) trioxychloride,ClOOOCl.[Re+7],599.24,,,yaws,Tc:yaws|Pc:-|omega:-,ClOOOCl.[Re+7],multi_fragment_salt_or_mixture
+rhenium (VII) trioxyfluoride,FOOOF.[Re+7],655.31,,,yaws,Tc:yaws|Pc:-|omega:-,FOOOF.[Re+7],multi_fragment_salt_or_mixture
+rhenium heptoxide,[O]=[Re](=[O])(=[O])(=[O])(=[O])(=[O])=[O],942.0,85.35,0.313,yaws,Tc:yaws|Pc:yaws|omega:yaws,[O]=[Re](=[O])(=[O])(=[O])(=[O])(=[O])=[O],inorganic_or_metal_containing
+rhodium,[Rh],12906.6,8024.4,,yaws,Tc:yaws|Pc:yaws|omega:-,[Rh],inorganic_or_metal_containing
+rubidium,[Rb],2093.0,160.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Rb],inorganic_or_metal_containing
+rubidium bromide,[Br-].[Rb+],2646.82,218.26,0.591,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Rb+],multi_fragment_salt_or_mixture
+rubidium chloride,[Cl-].[Rb+],2694.06,222.15,0.596,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Rb+],multi_fragment_salt_or_mixture
+rubidium fluoride,[F-].[Rb+],2738.03,225.78,0.601,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[Rb+],multi_fragment_salt_or_mixture
+rubidium iodide,[I-].[Rb+],2568.65,211.81,0.582,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[Rb+],multi_fragment_salt_or_mixture
+ruthenium,[Ru],15247.1,9165.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ru],inorganic_or_metal_containing
+ruthenium (V) fluoride,[F][Ru]([F])([F])([F])[F],977.44,80.6,0.296,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][Ru]([F])([F])([F])[F],inorganic_or_metal_containing
+samarium,[Sm],5082.92,3816.7,,yaws,Tc:yaws|Pc:yaws|omega:-,[Sm],inorganic_or_metal_containing
+scandium,[Sc],8035.08,5499.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Sc],inorganic_or_metal_containing
+selenium (vitreous),[Se],1766.0,272.0,0.227,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Se],inorganic_or_metal_containing
+selenium dioxide,O=[Se]=O,961.16,79.26,0.291,yaws,Tc:yaws|Pc:yaws|omega:yaws,O=[Se]=O,inorganic_or_metal_containing
+selenium hexafluoride,F[Se](F)(F)(F)(F)F,345.5,44.75,0.133,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Se](F)(F)(F)(F)F,inorganic_or_metal_containing
+selenium tetrachloride,Cl[Se](Cl)(Cl)Cl,743.95,61.05,0.269,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Se](Cl)(Cl)Cl,inorganic_or_metal_containing
+selenium tetrafluoride,F[Se](F)(F)F,608.64,85.6,,yaws,Tc:yaws|Pc:yaws|omega:-,F[Se](F)(F)F,inorganic_or_metal_containing
+"selenosulfide, carbon",S=C=[Se],576.53,74.12,0.316,yaws,Tc:yaws|Pc:yaws|omega:yaws,S=C=[Se],inorganic_or_metal_containing
+silane,[SiH4],269.7,48.4,0.0938,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH4],inorganic_or_metal_containing
+"silane, bromodichlorofluoro",F[Si](Cl)(Cl)Br,497.17,38.27,0.106,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](Cl)(Cl)Br,inorganic_or_metal_containing
+"silane, bromotrichloro",Cl[Si](Cl)(Cl)Br,545.5,38.71,,yaws,Tc:yaws|Pc:yaws|omega:-,Cl[Si](Cl)(Cl)Br,inorganic_or_metal_containing
+"silane, chlorotrifluoro",F[Si](F)(F)Cl,307.7,34.6,0.053,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](F)(F)Cl,inorganic_or_metal_containing
+"silane, dibromo",Br[SiH2]Br,550.0,53.0,0.227,yaws,Tc:yaws|Pc:yaws|omega:yaws,Br[SiH2]Br,inorganic_or_metal_containing
+"silane, dibromochlorofluoro",F[Si](Cl)(Br)Br,535.27,39.32,0.118,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](Cl)(Br)Br,inorganic_or_metal_containing
+"silane, dichloro",Cl[SiH2]Cl,459.0,45.9,0.0985,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[SiH2]Cl,inorganic_or_metal_containing
+"silane, dichlorodifluoro",F[Si](F)(Cl)Cl,369.0,35.0,0.072,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](F)(Cl)Cl,inorganic_or_metal_containing
+"silane, difluoro",F[SiH2]F,318.21,47.59,0.139,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[SiH2]F,inorganic_or_metal_containing
+"silane, diiodo",I[SiH2]I,660.0,66.88,0.389,yaws,Tc:yaws|Pc:yaws|omega:yaws,I[SiH2]I,inorganic_or_metal_containing
+"silane, iodo",[SiH3]I,515.0,69.41,0.276,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]I,inorganic_or_metal_containing
+"silane, monobromo",[SiH3]Br,454.0,56.44,0.155,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]Br,inorganic_or_metal_containing
+"silane, monochloro",[SiH3]Cl,396.65,48.43,0.136,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]Cl,inorganic_or_metal_containing
+"silane, monofluoro",F[SiH3],286.28,46.88,0.125,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[SiH3],inorganic_or_metal_containing
+"silane, tetraiodo",I[Si](I)(I)I,944.0,50.54,,yaws,Tc:yaws|Pc:yaws|omega:-,I[Si](I)(I)I,inorganic_or_metal_containing
+"silane, tribromo",Br[SiH](Br)Br,610.0,47.02,0.222,yaws,Tc:yaws|Pc:yaws|omega:yaws,Br[SiH](Br)Br,inorganic_or_metal_containing
+"silane, tribromochloro",Cl[Si](Br)(Br)Br,614.74,43.72,,yaws,Tc:yaws|Pc:yaws|omega:-,Cl[Si](Br)(Br)Br,inorganic_or_metal_containing
+"silane, trichloro",Cl[SiH](Cl)Cl,479.0,41.7,0.203,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[SiH](Cl)Cl,inorganic_or_metal_containing
+"silane, trichlorofluoro",F[Si](Cl)(Cl)Cl,438.6,35.8,0.093,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+"silane, trifluoro",F[SiH](F)F,291.02,39.95,0.079,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[SiH](F)F,inorganic_or_metal_containing
+silicon,[Si],5159.0,537.0,1.514,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Si],inorganic_or_metal_containing
+silicon dioxide (cristobalite),O=[Si]=O,5021.49,788.13,,yaws,Tc:yaws|Pc:yaws|omega:-,O=[Si]=O,inorganic_or_metal_containing
+silicon monosulfide,[Si]=S,2033.65,298.95,,yaws,Tc:yaws|Pc:yaws|omega:-,[Si]=S,inorganic_or_metal_containing
+silicon tetrachloride,Cl[Si](Cl)(Cl)Cl,507.0,35.9,0.2318,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Si](Cl)(Cl)Cl,inorganic_or_metal_containing
+silicon tetrafluoride,F[Si](F)(F)F,259.0,37.2,0.3858,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Si](F)(F)F,inorganic_or_metal_containing
+silver,[Ag],6410.0,4810.0,0.1499,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ag],inorganic_or_metal_containing
+silver (I) chloride,[Cl][Ag],2992.1,100.28,0.36,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Ag],inorganic_or_metal_containing
+silver (I) iodide,[Ag][I],2897.64,97.12,0.351,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ag][I],inorganic_or_metal_containing
+sodium,[Na],2573.0,354.64,-0.1055,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Na],inorganic_or_metal_containing
+sodium bromide,[Br-].[Na+],4287.0,192.52,-0.7998,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Na+],multi_fragment_salt_or_mixture
+sodium chloride,[Cl-].[Na+],3400.0,355.0,0.1894,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Na+],multi_fragment_salt_or_mixture
+sodium cyanide,[C-]#N.[Na+],2900.0,237.6,0.589,yaws,Tc:yaws|Pc:yaws|omega:yaws,[C-]#N.[Na+],multi_fragment_salt_or_mixture
+sodium fluoride,[F-].[Na+],5530.0,531.96,-1.1147,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[Na+],multi_fragment_salt_or_mixture
+sodium hydroxide,[Na+].[OH-],2820.0,250.0,0.477,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Na+].[OH-],multi_fragment_salt_or_mixture
+sodium iodide,[I-].[Na+],3950.0,139.0,-0.575,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[Na+],multi_fragment_salt_or_mixture
+sodium nitrate,O=[N+]([O-])[O-].[Na+],1321.0,,,yaws,Tc:yaws|Pc:-|omega:-,O=[N+]([O-])[O-].[Na+],multi_fragment_salt_or_mixture
+stannane,[SnH4],358.52,53.42,0.184,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SnH4],inorganic_or_metal_containing
+stannic bromide,[Br][Sn]([Br])([Br])[Br],744.0,43.43,0.165,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br][Sn]([Br])([Br])[Br],inorganic_or_metal_containing
+stannic chloride,[Cl][Sn]([Cl])([Cl])[Cl],591.9,37.5,0.14,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Sn]([Cl])([Cl])[Cl],inorganic_or_metal_containing
+stannic iodide,[I][Sn]([I])([I])[I],968.0,83.42,0.306,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I][Sn]([I])([I])[I],inorganic_or_metal_containing
+stannous chloride,[Cl][Sn][Cl],1459.53,120.35,0.414,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Sn][Cl],inorganic_or_metal_containing
+stibine,[SbH3],440.35,73.06,0.097,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SbH3],inorganic_or_metal_containing
+strontium,[Sr],4267.2,3319.8,,yaws,Tc:yaws|Pc:yaws|omega:-,[Sr],inorganic_or_metal_containing
+sulfur,[S],1314.0,117.55,0.2463,yaws,Tc:yaws|Pc:yaws|omega:yaws,[S],bare_element_no_hydrogens
+sulfur fluoride hypofluorite,F[S+]F.[O-]F,358.69,38.07,,yaws,Tc:yaws|Pc:yaws|omega:-,F[S+]F.[O-]F,multi_fragment_salt_or_mixture
+tantalum,[Ta],19900.9,11334.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Ta],inorganic_or_metal_containing
+tantalum (V) bromide,[Br-].[Br-].[Br-].[Br-].[Br-].[Ta+5],974.0,,,yaws,Tc:yaws|Pc:-|omega:-,[Br-].[Br-].[Br-].[Br-].[Br-].[Ta+5],multi_fragment_salt_or_mixture
+tantalum (V) chloride,[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Ta+5],767.0,,,yaws,Tc:yaws|Pc:-|omega:-,[Cl-].[Cl-].[Cl-].[Cl-].[Cl-].[Ta+5],multi_fragment_salt_or_mixture
+tantalum (V) fluoride,[F-].[F-].[F-].[F-].[F-].[Ta+5],787.96,,,yaws,Tc:yaws|Pc:-|omega:-,[F-].[F-].[F-].[F-].[F-].[Ta+5],multi_fragment_salt_or_mixture
+tantalum (V) iodide,[I-].[I-].[I-].[I-].[I-].[Ta+5],1318.8,,,yaws,Tc:yaws|Pc:-|omega:-,[I-].[I-].[I-].[I-].[I-].[Ta+5],multi_fragment_salt_or_mixture
+technetium,[Tc],17400.8,10183.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Tc],inorganic_or_metal_containing
+tellurium,[Te],4840.0,2617.1,,yaws,Tc:yaws|Pc:yaws|omega:-,[Te],inorganic_or_metal_containing
+tellurium dibromide,Br[Te]Br,1032.59,179.77,,yaws,Tc:yaws|Pc:yaws|omega:-,Br[Te]Br,inorganic_or_metal_containing
+tellurium dichloride,Cl[Te]Cl,1021.54,177.03,,yaws,Tc:yaws|Pc:yaws|omega:-,Cl[Te]Cl,inorganic_or_metal_containing
+tellurium dioxide,O=[Te]=O,2463.1,756.05,,yaws,Tc:yaws|Pc:yaws|omega:-,O=[Te]=O,inorganic_or_metal_containing
+tellurium hexafluoride,F[Te](F)(F)(F)(F)F,356.0,34.47,0.057,yaws,Tc:yaws|Pc:yaws|omega:yaws,F[Te](F)(F)(F)(F)F,inorganic_or_metal_containing
+tellurium tetrachloride,Cl[Te](Cl)(Cl)Cl,1002.0,85.6,0.326,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Te](Cl)(Cl)Cl,inorganic_or_metal_containing
+terbium,[Tb],11138.1,,,yaws,Tc:yaws|Pc:-|omega:-,[Tb],inorganic_or_metal_containing
+tetrabromosilane,Br[Si](Br)(Br)Br,663.0,46.62,,yaws,Tc:yaws|Pc:yaws|omega:-,Br[Si](Br)(Br)Br,inorganic_or_metal_containing
+tetradecamethylhexasiloxane,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,653.2,8.04,0.785,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)C,inorganic_or_metal_containing
+tetraethyl lead,C[CH2][Pb]([CH2]C)([CH2]C)[CH2]C,655.0,21.25,0.4783,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[CH2][Pb]([CH2]C)([CH2]C)[CH2]C,inorganic_or_metal_containing
+tetraethylsilane,CC[Si](CC)(CC)CC,606.0,24.0,0.4,yaws,Tc:yaws|Pc:yaws|omega:yaws,CC[Si](CC)(CC)CC,inorganic_or_metal_containing
+tetrakis(trimethylsilyloxy)silane,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C,645.8,9.61,0.746,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)O[Si](O[Si](C)(C)C)(O[Si](C)(C)C)O[Si](C)(C)C,inorganic_or_metal_containing
+tetramethylsilane,C[Si](C)(C)C,450.4,28.14,0.224,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[Si](C)(C)C,inorganic_or_metal_containing
+tetrasilane,[SiH3][SiH2][SiH2][SiH3],599.3,29.68,0.037,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3][SiH2][SiH2][SiH3],inorganic_or_metal_containing
+thallium,[Tl],4648.06,3554.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Tl],inorganic_or_metal_containing
+thallium iodide,[I-].[Tl+],1785.26,147.21,0.474,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[Tl+],multi_fragment_salt_or_mixture
+thallous bromide,[Br-].[Tl+],1778.75,146.68,0.473,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Tl+],multi_fragment_salt_or_mixture
+thorium,[Th],17668.05,,,yaws,Tc:yaws|Pc:-|omega:-,[Th],inorganic_or_metal_containing
+thulium,[Tm],6283.16,4519.7,,yaws,Tc:yaws|Pc:yaws|omega:-,[Tm],inorganic_or_metal_containing
+tin (II) bromide,[Br][Sn][Br],1466.09,139.11,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br][Sn][Br],inorganic_or_metal_containing
+tin (II) fluoride,[F][Sn][F],1835.05,250.18,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Sn][F],inorganic_or_metal_containing
+tin (II) iodide,[I][Sn][I],1635.64,132.69,,yaws,Tc:yaws|Pc:yaws|omega:-,[I][Sn][I],inorganic_or_metal_containing
+tin (II) sulfide,[S]=[Sn],2486.26,299.96,,yaws,Tc:yaws|Pc:yaws|omega:-,[S]=[Sn],inorganic_or_metal_containing
+tin (IV) fluoride,[F][Sn]([F])([F])[F],1539.6,171.98,,yaws,Tc:yaws|Pc:yaws|omega:-,[F][Sn]([F])([F])[F],inorganic_or_metal_containing
+tin (white),[Sn],7400.0,6099.8,0.101,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Sn],inorganic_or_metal_containing
+titanium,[Ti],6400.0,7010.2,0.915,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Ti],inorganic_or_metal_containing
+titanium (II) chloride,[Cl-].[Cl-].[Ti+2],2906.02,335.86,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Ti+2],multi_fragment_salt_or_mixture
+titanium (III) chloride,[Cl-].[Cl-].[Cl-].[Ti+3],1971.57,177.2,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Cl-].[Ti+3],multi_fragment_salt_or_mixture
+titanium (III) fluoride,[F-].[F-].[F-].[Ti+3],2716.12,431.33,,yaws,Tc:yaws|Pc:yaws|omega:-,[F-].[F-].[F-].[Ti+3],multi_fragment_salt_or_mixture
+titanium (IV) bromide,[Br][Ti]([Br])([Br])[Br],795.7,57.13,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br][Ti]([Br])([Br])[Br],inorganic_or_metal_containing
+titanium (IV) iodide,[I][Ti]([I])([I])[I],1040.0,60.88,,yaws,Tc:yaws|Pc:yaws|omega:-,[I][Ti]([I])([I])[I],inorganic_or_metal_containing
+titanium tetrachloride,[Cl][Ti]([Cl])([Cl])[Cl],638.0,46.61,0.2837,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][Ti]([Cl])([Cl])[Cl],inorganic_or_metal_containing
+tributyl borate,CCCCOB(OCCCC)OCCCC,743.15,19.89,0.189,yaws,Tc:yaws|Pc:yaws|omega:yaws,CCCCOB(OCCCC)OCCCC,inorganic_or_metal_containing
+trichloroethylsilane,[SiH3]CC(Cl)(Cl)Cl,559.95,33.3,0.269,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]CC(Cl)(Cl)Cl,inorganic_or_metal_containing
+trichlorophenylsilane,Cl[Si](Cl)(Cl)c1ccccc1,688.0,29.6,0.396,yaws,Tc:yaws|Pc:yaws|omega:yaws,Cl[Si](Cl)(Cl)c1ccccc1,inorganic_or_metal_containing
+trichlorovinylsilane,[SiH3]C(Cl)=C(Cl)Cl,543.15,30.6,0.282,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]C(Cl)=C(Cl)Cl,inorganic_or_metal_containing
+triethyl aluminum,C[CH2][Al]([CH2]C)[CH2]C,678.15,89.3,0.842,yaws,Tc:yaws|Pc:yaws|omega:yaws,C[CH2][Al]([CH2]C)[CH2]C,inorganic_or_metal_containing
+trigermane,[GeH3][GeH2][GeH3],616.37,47.05,0.18,yaws,Tc:yaws|Pc:yaws|omega:yaws,[GeH3][GeH2][GeH3],inorganic_or_metal_containing
+trimethoxysilane,CO[SiH](OC)OC,525.0,28.9,0.322,yaws,Tc:yaws|Pc:yaws|omega:yaws,CO[SiH](OC)OC,inorganic_or_metal_containing
+trimethyl aluminum,[CH3][Al]([CH3])[CH3],620.0,40.0,0.218,yaws,Tc:yaws|Pc:yaws|omega:yaws,[CH3][Al]([CH3])[CH3],inorganic_or_metal_containing
+trimethyl silane,C[SiH](C)C,432.0,31.9,0.175,finetune+yaws,Tc:yaws|Pc:yaws|omega:yaws,C[SiH](C)C,inorganic_or_metal_containing
+trimethylgallium,[CH3][Ga]([CH3])[CH3],510.0,44.0,0.208,yaws,Tc:yaws|Pc:yaws|omega:yaws,[CH3][Ga]([CH3])[CH3],inorganic_or_metal_containing
+trisilane,[SiH3][SiH2][SiH3],525.15,33.7,0.07,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3][SiH2][SiH3],inorganic_or_metal_containing
+trisilazane,[SiH3]N[SiH2]N[SiH3],518.2,31.65,0.05,yaws,Tc:yaws|Pc:yaws|omega:yaws,[SiH3]N[SiH2]N[SiH3],inorganic_or_metal_containing
+tungsten,[W],14756.0,11497.0,0.077,yaws,Tc:yaws|Pc:yaws|omega:yaws,[W],inorganic_or_metal_containing
+tungsten (V) bromide,[Br][W]([Br])([Br])([Br])[Br],923.75,57.75,,yaws,Tc:yaws|Pc:yaws|omega:-,[Br][W]([Br])([Br])([Br])[Br],inorganic_or_metal_containing
+tungsten (V) chloride,[Cl][W]([Cl])([Cl])([Cl])[Cl],861.73,53.61,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][W]([Cl])([Cl])([Cl])[Cl],inorganic_or_metal_containing
+tungsten (VI) chloride,[Cl][W]([Cl])([Cl])([Cl])([Cl])[Cl],923.0,49.75,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl][W]([Cl])([Cl])([Cl])([Cl])[Cl],inorganic_or_metal_containing
+tungsten fluoride,[F][W]([F])([F])[F],444.0,43.4,0.163,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F][W]([F])([F])[F],inorganic_or_metal_containing
+uranium,[U],13712.6,8421.6,,yaws,Tc:yaws|Pc:yaws|omega:-,[U],inorganic_or_metal_containing
+uranium (IV) chloride,[Cl-].[Cl-].[Cl-].[Cl-].[U+4],1661.19,103.65,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Cl-].[Cl-].[U+4],multi_fragment_salt_or_mixture
+uranium (IV) fluoride,[F-].[F-].[F-].[F-].[U+4],2686.76,292.77,,yaws,Tc:yaws|Pc:yaws|omega:-,[F-].[F-].[F-].[F-].[U+4],multi_fragment_salt_or_mixture
+uranium fluoride,[F-].[F-].[F-].[F-].[F-].[F-].[U+6],505.8,46.6,0.318,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[F-].[F-].[F-].[F-].[F-].[U+6],multi_fragment_salt_or_mixture
+uranyl nitrate,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[O]=[U+2]=[O],510.39,29.49,,yaws,Tc:yaws|Pc:yaws|omega:-,O=[N+]([O-])[O-].O=[N+]([O-])[O-].[O]=[U+2]=[O],multi_fragment_salt_or_mixture
+vanadium,[V],11325.0,10314.0,-0.2408,yaws,Tc:yaws|Pc:yaws|omega:yaws,[V],inorganic_or_metal_containing
+vanadium (II) bromide,[Br-].[Br-].[V+2],1730.09,,,yaws,Tc:yaws|Pc:-|omega:-,[Br-].[Br-].[V+2],multi_fragment_salt_or_mixture
+vanadium (II) chloride,[Cl-].[Cl-].[V+2],1918.64,,,yaws,Tc:yaws|Pc:-|omega:-,[Cl-].[Cl-].[V+2],multi_fragment_salt_or_mixture
+vanadium (V) fluoride,[F-].[F-].[F-].[F-].[F-].[V+5],499.01,,,yaws,Tc:yaws|Pc:-|omega:-,[F-].[F-].[F-].[F-].[F-].[V+5],multi_fragment_salt_or_mixture
+vanadium tetrachloride,[Cl][V]([Cl])([Cl])[Cl],697.0,60.3,0.1858,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl][V]([Cl])([Cl])[Cl],inorganic_or_metal_containing
+xenon,[Xe],289.74,58.4,0.0,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Xe],inorganic_or_metal_containing
+xenon difluoride,F[Xe]F,631.0,93.2,,yaws,Tc:yaws|Pc:yaws|omega:-,F[Xe]F,inorganic_or_metal_containing
+xenon hexafluoride,F[Xe](F)(F)(F)(F)F,534.62,54.14,,yaws,Tc:yaws|Pc:yaws|omega:-,F[Xe](F)(F)(F)(F)F,inorganic_or_metal_containing
+xenon tetrafluoride,F[Xe](F)(F)F,612.0,70.4,,yaws,Tc:yaws|Pc:yaws|omega:-,F[Xe](F)(F)F,inorganic_or_metal_containing
+xylene chloride,Cc1ccccc1C.[Cl-],735.0,33.0,,yaws,Tc:yaws|Pc:yaws|omega:-,Cc1ccccc1C.[Cl-],multi_fragment_salt_or_mixture
+ytterbium,[Yb],4365.92,3380.9,,yaws,Tc:yaws|Pc:yaws|omega:-,[Yb],inorganic_or_metal_containing
+yttrium,[Y],9381.32,6222.0,,yaws,Tc:yaws|Pc:yaws|omega:-,[Y],inorganic_or_metal_containing
+zinc,[Zn],3170.0,2904.0,0.0459,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Zn],inorganic_or_metal_containing
+zinc chloride,[Cl-].[Cl-].[Zn+2],1637.05,134.99,0.448,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cl-].[Zn+2],multi_fragment_salt_or_mixture
+zinc fluoride,[F-].[F-].[Zn+2],2882.98,237.73,0.616,yaws,Tc:yaws|Pc:yaws|omega:yaws,[F-].[F-].[Zn+2],multi_fragment_salt_or_mixture
+zirconium,[Zr],8802.0,9364.6,0.859,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Zr],inorganic_or_metal_containing
+zirconium (IV) fluoride,[F-].[F-].[F-].[F-].[Zr+4],1553.38,225.35,,yaws,Tc:yaws|Pc:yaws|omega:-,[F-].[F-].[F-].[F-].[Zr+4],multi_fragment_salt_or_mixture
+zirconium bromide,[Br-].[Br-].[Br-].[Br-].[Zr+4],805.0,84.63,0.31,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Br-].[Br-].[Br-].[Br-].[Zr+4],multi_fragment_salt_or_mixture
+zirconium chloride,[Cl-].[Cl-].[Cl-].[Cl-].[Zr+4],778.0,57.7,0.298,yaws,Tc:yaws|Pc:yaws|omega:yaws,[Cl-].[Cl-].[Cl-].[Cl-].[Zr+4],multi_fragment_salt_or_mixture
+zirconium dichloride,[Cl-].[Cl-].[Zr+2],2072.62,245.16,,yaws,Tc:yaws|Pc:yaws|omega:-,[Cl-].[Cl-].[Zr+2],multi_fragment_salt_or_mixture
+zirconium iodide,[I-].[I-].[I-].[I-].[Zr+4],960.0,94.57,0.343,yaws,Tc:yaws|Pc:yaws|omega:yaws,[I-].[I-].[I-].[I-].[Zr+4],multi_fragment_salt_or_mixture
+zirconium telluride,[Te-2].[Te-2].[Zr+4],1592.9,418.15,,yaws,Tc:yaws|Pc:yaws|omega:-,[Te-2].[Te-2].[Zr+4],multi_fragment_salt_or_mixture
+Monosilylacetylene,C#C[SiH3],,,,finetune,Tc:-|Pc:-|omega:-,C#C[SiH3],inorganic_or_metal_containing
+Trifluoro(propan-2-yl)silane,CC(C)[Si](F)(F)F,,,,finetune,Tc:-|Pc:-|omega:-,CC(C)[Si](F)(F)F,inorganic_or_metal_containing
+Trifluoro-propylsilicone,CCC[Si](F)(F)F,,,,finetune,Tc:-|Pc:-|omega:-,CCC[Si](F)(F)F,inorganic_or_metal_containing
+Ethoxy(trifluoro)silane,CCO[Si](F)(F)F,,,,finetune,Tc:-|Pc:-|omega:-,CCO[Si](F)(F)F,inorganic_or_metal_containing
+Triethylfluorosilane,CC[Si](F)(CC)CC,,,,finetune,Tc:-|Pc:-|omega:-,CC[Si](F)(CC)CC,inorganic_or_metal_containing
+Diethyldifluorosilane,CC[Si](F)(F)CC,,,,finetune,Tc:-|Pc:-|omega:-,CC[Si](F)(F)CC,inorganic_or_metal_containing
+Ethyltrifluorosilane,CC[Si](F)(F)F,,,,finetune,Tc:-|Pc:-|omega:-,CC[Si](F)(F)F,inorganic_or_metal_containing

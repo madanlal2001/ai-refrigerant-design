@@ -1,0 +1,6 @@
+canonical_smiles,name,cluster_id,target,actual,pred,abs_error,src_Tc
+N#CN=C(N)N,cyanoguanidine,875,Tc (K),834.0,719.6156,114.3843994140625,finetune
+NCCNCCN,diethylene triamine,26,Tc (K),693.5,686.077,7.4229736328125,finetune
+NCCNCCNCCNCCNCCN,pentaethylenehexamine,26,Tc (K),820.0,808.6141,11.38592529296875,yaws
+NCCNCCNCCNCCN,tetraethylenepentamine,26,Tc (K),774.0,802.92444,28.9244384765625,yaws
+NCCNCCNCCN,triethylene tetramine,26,Tc (K),718.0,783.0814,65.0814208984375,yaws

@@ -1,0 +1,167 @@
+==========================================================================================
+SECTION 1 — LABEL-SOURCE AUDIT
+==========================================================================================
+
+--- 1a. Label counts and pct by source (full usable benchmark, n=6972) ---
+
+Tc (K): total labeled=6972, missing=0
+    yaws        n= 4916  ( 70.5% of all benchmark rows)
+    finetune    n= 2056  ( 29.5% of all benchmark rows)
+
+Pc (bar): total labeled=6934, missing=38
+    yaws        n= 5011  ( 71.9% of all benchmark rows)
+    finetune    n= 1923  ( 27.6% of all benchmark rows)
+    -           n=   38  (  0.5% of all benchmark rows)
+
+omega (-): total labeled=5627, missing=1345
+    yaws        n= 4137  ( 59.3% of all benchmark rows)
+    finetune    n= 1490  ( 21.4% of all benchmark rows)
+    -           n= 1345  ( 19.3% of all benchmark rows)
+
+--- 1b. Missingness by originating file (source column) ---
+
+Tc (K) missing-rate by file-of-origin ('source' column):
+    finetune        missing 0/278 (0.0%)
+    finetune+yaws   missing 0/5728 (0.0%)
+    yaws            missing 0/966 (0.0%)
+
+Pc (bar) missing-rate by file-of-origin ('source' column):
+    finetune        missing 38/278 (13.7%)
+    finetune+yaws   missing 0/5728 (0.0%)
+    yaws            missing 0/966 (0.0%)
+
+omega (-) missing-rate by file-of-origin ('source' column):
+    finetune        missing 187/278 (67.3%)
+    finetune+yaws   missing 667/5728 (11.6%)
+    yaws            missing 491/966 (50.8%)
+
+--- 1c. HELD-OUT TEST performance by label source ---
+Property   Source          N       RMSE        MAE       R2
+Tc         finetune      223    30.5004    16.8602   0.9301
+Tc         yaws          474    41.8452    19.6359   0.8420
+Pc         finetune      205     5.2931     1.9168   0.8403
+Pc         yaws          487     5.9136     1.8233   0.7445
+omega      finetune      168     0.0863     0.0453   0.9249
+omega      yaws          367     0.0742     0.0362   0.9204
+
+NOTE: 'source' here is FILE OF ORIGIN (finetune-curated-experimental-file vs Yaws
+Collection reference DB), not a verified experimental/estimated flag. Yaws Collection.tsv
+carries no per-row data-quality column, so a finer experimental-vs-estimated split within
+Yaws is NOT determinable from available files. This is reported as a real limitation.
+
+==========================================================================================
+SECTION 2 — MEGA-CLUSTER AUDIT (cluster_id == 0, n=1512)
+==========================================================================================
+
+Super-cluster size: 1512
+Super-cluster split distribution: {'train': 1512}
+(entire cluster in ONE partition by construction — Butina clusters are never split across train/val/test)
+
+Tc (K):
+  A. super-cluster (test members): n=0  RMSE=nan  MAE=nan  R2=nan  MAPE=nan
+  B. all other test molecules:      n=697  RMSE=38.5802  MAE=18.7478  R2=0.8780  MAPE=2.7082
+  C. complete test set:             n=697  RMSE=38.5802  MAE=18.7478  R2=0.8780  MAPE=2.7082
+
+Pc (bar):
+  A. super-cluster (test members): n=0  RMSE=nan  MAE=nan  R2=nan  MAPE=nan
+  B. all other test molecules:      n=692  RMSE=5.7368  MAE=1.8510  R2=0.7843  MAPE=8.1547
+  C. complete test set:             n=692  RMSE=5.7368  MAE=1.8510  R2=0.7843  MAPE=8.1547
+
+omega (-):
+  A. super-cluster (test members): n=0  RMSE=nan  MAE=nan  R2=nan  MAPE=nan
+  B. all other test molecules:      n=535  RMSE=0.0782  MAE=0.0391  R2=0.9236  MAPE=9.8303
+  C. complete test set:             n=535  RMSE=0.0782  MAE=0.0391  R2=0.9236  MAPE=9.8303
+
+==========================================================================================
+SECTION 3 — CV INSTABILITY ANALYSIS (composition only — NO refitting)
+==========================================================================================
+
+LIMITATION (reported honestly): the training script only persisted CV mean±std per target
+(results/unique_molecules_xgboost/metrics/cv_metrics.csv), not per-fold predictions or
+per-fold RMSE. Recovering true per-fold RMSE would require re-fitting each fold's XGBoost
+model, which is retraining — explicitly disallowed for this audit. What CAN be recovered
+without any model fitting is the FOLD COMPOSITION itself: GroupKFold's split() is a pure,
+deterministic index partition (no randomness, no model involved) given the same cluster_id
+groups used at training time. This lets us test whether the fold assignment itself is
+structurally imbalanced enough to explain the reported instability.
+
+Reported aggregate CV (from cv_metrics.csv):
+   target  n_folds  RMSE_mean  RMSE_std  MAE_mean  MAE_std  R2_mean  R2_std
+   Tc (K)        5    45.8577   30.9675   22.0126  15.0715   0.8388  0.1370
+ Pc (bar)        5     6.9764    4.8125    2.1177   0.3378   0.7129  0.2312
+omega (-)        5     0.0794    0.0109    0.0375   0.0089   0.8710  0.0593
+
+Tc (K): train n=5577, fold sizes (held-out per fold)=[1512, 1017, 1016, 1016, 1016]
+  fold(s) containing the super-cluster (cluster_id=0): [0]
+  fold-size imbalance ratio (max/min held-out size): 1.49x
+
+Pc (bar): train n=5546, fold sizes (held-out per fold)=[1507, 1010, 1010, 1010, 1009]
+  fold(s) containing the super-cluster (cluster_id=0): [0]
+  fold-size imbalance ratio (max/min held-out size): 1.49x
+
+omega (-): train n=4489, fold sizes (held-out per fold)=[1067, 856, 856, 855, 855]
+  fold(s) containing the super-cluster (cluster_id=0): [0]
+  fold-size imbalance ratio (max/min held-out size): 1.25x
+
+INTERPRETATION: because GroupKFold keeps every Butina cluster intact within one fold, the
+1512-molecule super-cluster (27% of the train partition) is entirely held out in exactly one
+fold for whichever target the cluster's molecules are labeled for. That fold's held-out set is
+dominated by near-duplicate long-alkyl-chain molecules structurally different from the rest of
+train — a plausible, evidence-supported (not merely asserted) explanation for the high CV
+RMSE_std observed (e.g. Tc: 45.86±30.97 — std is 68% of the mean). This is a fold-composition
+artifact of combining Butina-cluster-safe splitting with GroupKFold on a dataset containing one
+oversized cluster; it is not evidence about the model itself.
+
+
+==========================================================================================
+SECTION 4 — SYSTEMATIC ERROR AUDIT BY CHEMICAL FAMILY
+==========================================================================================
+
+--- Family: fatty_acid_glyceride  (n=181 in full usable benchmark) ---
+  Tc: n_test=68  RMSE=92.5450927469867  mean_signed_error=42.451 (under-predicted on avg)  sources={'yaws': 62, 'finetune': 6}
+  Pc: n_test=68  RMSE=1.1919700188209892  mean_signed_error=0.980 (under-predicted on avg)  sources={'yaws': 62, 'finetune': 6}
+  omega: n_test=11  RMSE=0.1096343702460938  mean_signed_error=0.080 (under-predicted on avg)  sources={'yaws': 6, 'finetune': 5}
+
+--- Family: polyamine  (n=10 in full usable benchmark) ---
+  Tc: n_test=5  RMSE=60.56524162660232  mean_signed_error=7.837 (under-predicted on avg)  sources={'yaws': 3, 'finetune': 2}
+  Pc: n_test=5  RMSE=40.904670838009345  mean_signed_error=-37.306 (over-predicted on avg)  sources={'yaws': 3, 'finetune': 2}
+  omega: n_test=5  RMSE=0.30703072406999615  mean_signed_error=0.274 (under-predicted on avg)  sources={'yaws': 4, 'finetune': 1}
+
+--- Family: exotic_valence_charged_radical  (n=98 in full usable benchmark) ---
+  Tc: n_test=12  RMSE=68.74143541271978  mean_signed_error=-5.846 (over-predicted on avg)  sources={'yaws': 8, 'finetune': 4}
+  Pc: n_test=12  RMSE=17.23800144878606  mean_signed_error=-2.894 (over-predicted on avg)  sources={'yaws': 8, 'finetune': 4}
+  omega: n_test=12  RMSE=0.2597408604927684  mean_signed_error=0.098 (under-predicted on avg)  sources={'yaws': 8, 'finetune': 4}
+
+Reading worst20_*.csv max_tanimoto_train values already computed at training time (no
+recomputation): fatty-acid/glyceride worst offenders sit at 0.44-0.74 similarity (MEDIUM to
+train), polyamine worst offenders sit at ~0.53-0.56 (MEDIUM), exotic-valence worst offenders
+sit at 0.20-0.29 (LOW). This distinguishes the three families:
+  - polyamines: MEDIUM similarity to train exists, so this looks like a LABEL/REPRESENTATION
+    issue on a small, structurally-clustered family (chain-length homologs of each other),
+    not pure extrapolation — model is systematically biased in one direction for the whole
+    family (see mean_signed_error above), consistent with a systematic effect, not noise.
+  - fatty acids/glycerides: MEDIUM-to-fairly-high similarity (up to 0.74) but still large
+    errors → suggests either the *labels* for these long, floppy, poly-unsaturated chains are
+    less reliable, or Tc for very long chains is intrinsically harder for a fixed-radius Morgan
+    fingerprint (radius=2 cannot see whole-chain length effects well) — a representation
+    limitation, not pure domain gap (nearest neighbors DO exist).
+  - exotic-valence/charged/radical species: LOW similarity to train AND structurally unusual
+    (formal charges, radicals, some flagged earlier as probable malformed/simplified SMILES,
+    e.g. bracket atoms missing implicit H) → this is the clearest domain-gap + likely
+    SMILES-notation-quality issue, not a modeling issue.
+
+
+==========================================================================================
+SECTION 5 — REFRIGERANT OVERLAP RE-VERIFICATION
+==========================================================================================
+Refrigerants remaining in benchmark_split.csv (should be 0): 0
+Rows recorded as excluded at training time (excluded_refrigerant_overlap.csv): 24
+Existing refrigerant deployment artifacts touched by this audit: NONE (read-only, no writes outside results/unique_molecules_xgboost/audit/)
+
+==========================================================================================
+SECTION 6 — COMPARISON WITH EXISTING XGB-A
+==========================================================================================
+   target  XGB-A_RMSE  new_RMSE    diff  XGB-A_MAE  new_MAE XGB-A_R2  new_R2
+   Tc (K)     31.1722  38.58016  7.4080    19.8383 18.74782     None 0.87796
+ Pc (bar)      3.5689   5.73676  2.1679     1.8778  1.85103     None 0.78434
+omega (-)      0.0829   0.07819 -0.0047     0.0495  0.03908     None 0.92357

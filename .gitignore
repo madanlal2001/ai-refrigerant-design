@@ -1,0 +1,49 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === OS / editor junk ===
+.DS_Store
+*.swp
+.~lock.*#
+*.Zone.Identifier
+
+# === Secrets ===
+.env
+*.pem
+*.key
+
+# === Large regenerable feature/model artifacts (see docs/reproducibility.md) ===
+# XGBoost: Morgan+RDKit2D feature matrices (regenerate with 01_prepare_data.py,
+# notebook cell 1). Deterministic given the same input CSVs + seed=42.
+xgboost/artifacts/X_benchmark.npy
+xgboost/artifacts/X_est.npy
+xgboost/artifacts/X_142.npy
+# XGBoost: unique_molecules_* experiment model binaries (diagnostic, not
+# deployment models — regenerate with the scripts in xgboost/results/<experiment>/)
+xgboost/results/*/models/
+
+# GNN: trained checkpoints (regenerate with gnn/gnn_pipeline.py; see gnn/README.md
+# for the expected checkpoint filenames and training data)
+gnn/checkpoints/
+gnn/**/*.pt
+
+# COP platform: trained-model checkpoint bundle + merged pipeline artifacts
+cop/checkpoints/
+cop/merged_pipeline/
+
+# Large mixture-sweep outputs (100MB+ generated CSVs — regenerate with the
+# scripts in cop/mixtures/; see cop/mixtures/README.md)
+cop/mixtures/*_9comp.csv
+cop/mixtures/*_81comp.csv
+
+# Third-party reference PDFs (copyrighted literature, not redistributable)
+docs/literature/

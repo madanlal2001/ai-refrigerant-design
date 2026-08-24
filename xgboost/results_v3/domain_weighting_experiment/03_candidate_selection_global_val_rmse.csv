@@ -1,0 +1,7 @@
+variant,candidate,global_val_RMSE,n_included
+D2,p=1.0,30.7495,
+D2,p=2.0,33.2885,
+D3,bw=1.5,31.5716,
+D3,bw=2.5,31.2571,
+D4,radius=1.5,33.2066,61.0
+D4,radius=2.0,33.0609,363.0

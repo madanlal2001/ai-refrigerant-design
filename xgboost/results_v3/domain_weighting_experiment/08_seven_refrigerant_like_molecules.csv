@@ -1,0 +1,8 @@
+canonical_smiles,actual_Tc,D0_pred,D0_abs_error,D1_pred,D1_abs_error,D2_pred,D2_abs_error,D3_pred,D3_abs_error,D4_pred,D4_abs_error,D2_vs_D0,D2_vs_D1,D3_vs_D0,D3_vs_D1,D4_vs_D0,D4_vs_D1
+CC(C)(C)C(F)(F)F,452.0,442.477,9.523,456.051,4.051,456.557,4.557,454.997,2.997,451.046,0.954,improved,worsened,improved,improved,improved,improved
+CC(C)O,508.29,511.919,3.629,517.571,9.281,520.075,11.785,526.284,17.994,517.547,9.257,worsened,worsened,worsened,worsened,worsened,improved
+CC(F)(F)C(F)(F)F,380.1,382.696,2.596,396.203,16.103,389.014,8.914,382.769,2.669,397.681,17.581,worsened,improved,worsened,improved,worsened,worsened
+CCC(C)F,448.0,444.171,3.829,455.871,7.871,458.968,10.968,456.252,8.252,455.293,7.293,worsened,worsened,worsened,worsened,worsened,improved
+FC(F)(F)CC(F)(F)F,398.07,407.998,9.928,402.974,4.904,406.582,8.512,407.973,9.903,412.729,14.659,improved,worsened,improved,worsened,worsened,worsened
+OCC(F)(F)F,498.57,477.37,21.2,467.987,30.583,481.466,17.104,478.58,19.99,480.806,17.764,improved,improved,improved,improved,improved,improved
+CC(C)=C(C)F,486.02,475.4,10.62,487.709,1.689,487.752,1.732,483.486,2.534,485.234,0.786,improved,worsened,improved,worsened,improved,improved

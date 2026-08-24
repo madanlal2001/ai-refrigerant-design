@@ -1,0 +1,20 @@
+# ---- core thermodynamics: this is ALL you need to compute a COP -----------
+numpy>=1.24
+scipy>=1.10
+
+# ---- the Streamlit app ----------------------------------------------------
+streamlit>=1.30
+pandas>=2.0
+matplotlib>=3.7
+
+# ---- optional: SMILES canonicalisation, molar mass, formula ---------------
+# Without it the app still runs; SMILES is treated as an opaque string.
+# rdkit>=2023.9
+
+# ---- optional: GNN prediction of Tc/Pc/omega ------------------------------
+# ~2-3 GB installed. Only needed if you have checkpoints/merged_pipeline.pt.
+# torch_geometric is fussy -- install torch FIRST, then match the wheel index
+# to your torch/CUDA version. Do not add these to a deployment unless you are
+# actually serving predictions.
+# torch>=2.0
+# torch_geometric>=2.4

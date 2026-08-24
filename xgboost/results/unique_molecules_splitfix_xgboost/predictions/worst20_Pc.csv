@@ -1,0 +1,21 @@
+canonical_smiles,name,cluster_id,target,actual,pred,abs_error,max_tanimoto_train
+[2H]C#N,deuterium cyanide,788,Pc (bar),113.56,68.90632,44.65368133544922,0.15384615384615385
+c1ccc(P(c2ccccc2)c2ccccc2)cc1,triphenylphosphine,208,Pc (bar),78.4,40.131218,38.26878204345704,0.3333333333333333
+[O-][Cl+3]([O-])([O-])O,perchloric acid,886,Pc (bar),38.6,71.989235,33.389234924316405,0.18181818181818182
+FI(F)(F)(F)F,iodine pentafluoride,926,Pc (bar),72.52,41.921455,30.598544616699215,0.2
+c1ccc(C(=C(c2ccccc2)c2ccccc2)c2ccccc2)cc1,tetraphenylethylene,208,Pc (bar),17.1,44.04761,26.947611236572264,0.5294117647058824
+c1ccc(C(c2ccccc2)(c2ccccc2)c2ccccc2)cc1,tetraphenylmethane,208,Pc (bar),17.9,43.992096,26.092095947265626,0.625
+[O]N=O,nitrogen dioxide,896,Pc (bar),101.32,78.15478,23.165222473144524,0.375
+c1ccc(C(c2ccccc2)C(c2ccccc2)c2ccccc2)cc1,"1,1,2,2-tetraphenylethane",208,Pc (bar),16.7,38.736023,22.03602294921875,0.5294117647058824
+CC(=O)S,thioacetic-acid,261,Pc (bar),69.21,50.982143,18.227856597900384,0.38461538461538464
+c1ccc(Nc2ccccc2)cc1,diphenylamine,208,Pc (bar),31.8,48.820473,17.020472717285156,0.9230769230769231
+C(#Cc1ccccc1)c1ccccc1,diphenylacetylene,208,Pc (bar),29.0,45.5672,16.56719970703125,0.3333333333333333
+c1ccc(Oc2ccccc2)cc1,diphenyl ether,208,Pc (bar),31.2,47.5213,16.32130126953125,0.5294117647058824
+c1ccc(NNc2ccccc2)cc1,hydrazobenzene,208,Pc (bar),30.9,46.87346,15.973458862304689,0.5625
+NC(N)=O,urea,635,Pc (bar),90.5,74.93624,15.563758850097656,0.4166666666666667
+CNCC(O)CO,"3-methylamino-1,2-propanediol",610,Pc (bar),32.7,45.52318,12.823178100585935,0.47058823529411764
+NC(=O)Cl,carbamic chloride,475,Pc (bar),73.8,61.56966,12.230339813232419,0.35714285714285715
+BrC(Br)C(Br)Br,"1,1,2,2-tetrabromoethane",384,Pc (bar),46.0,57.73537,11.735370635986328,0.5
+N#CN=C(N)N,cyanoguanidine,966,Pc (bar),53.4,63.357925,9.957925415039064,0.2857142857142857
+Oc1ccccc1,phenol,192,Pc (bar),59.96,50.15235,9.80764862060547,0.5
+Cc1cc(O)ccc1O,"1,4-dihydroxy-2-methylbenzene",192,Pc (bar),61.32,51.576885,9.743114776611328,0.65

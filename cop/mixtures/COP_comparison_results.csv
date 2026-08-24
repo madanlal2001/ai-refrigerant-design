@@ -1,0 +1,145 @@
+IUPAC_Name,Structure,SMILES,COP,COP_Tc_exp,COP_Tc_pred,error_Tc_exp,error_Tc_pred,note
+ethane,CH3-CH3,CC,,,,,,Tc_exp failed: T_cond (313.15 K) ≥ Tc (305.30 K) — transcritical.; Tc_pred failed: T_evap (283.15 K) ≥ Tc (268.46 K) — transcritical.
+ethyne (acetylene),CH≡CH,C#C,6.03,6.4998,,7.791,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (304.81 K) — transcritical.
+propene (propylene),CH2=CH-CH3,C=CC,7.77,8.2989,7.7473,6.807,0.292,OK
+propane,CH3-CH2-CH3,CCC,7.81,8.3811,8.1303,7.312,4.101,OK
+prop-1-yne,CH3-C≡CH,C#CC,8.29,8.5892,8.7147,3.609,5.123,OK
+cyclopropane,c-CH2-CH2-CH2-,C1CC1,8.3,8.6854,8.6838,4.643,4.624,OK
+2-methylpropane (isobutane),(CH3)2-CH-CH3,CC(C)C,8.13,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.5088e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.5753e-01"
+cyclopropene,c-CH2-CH=CH-,C1=CC1,8.5,8.802,8.6359,3.553,1.598,OK
+fluoromethane,CH3F,CF,,6.2882,,,,Tc_pred failed: T_evap (283.15 K) ≥ Tc (239.95 K) — transcritical.
+difluoromethane,CH2F2,FCF,7.68,7.9424,,3.416,,Tc_pred failed: T_evap (283.15 K) ≥ Tc (278.15 K) — transcritical.
+fluoroethane,CH2F-CH3,CCF,8.07,8.4734,8.2586,4.999,2.338,OK
+"1,1-difluoroethane",CHF2-CH3,CC(F)F,8.22,8.6062,8.3516,4.699,1.6,OK
+"1,1,2,2-tetrafluoroethane",CHF2-CHF2,FC(F)C(F)F,8.16,,8.3077,,1.81,Tc_exp failed: T_evap (283.15 K) ≥ Tc (138.00 K) — transcritical.
+"1-(difluoromethyl)-1,2,2,3,3-pentafluorocyclopropane",CHF2-(-CF-CF2-CF2-),FC(F)C1(F)C(F)(F)C1(F)F,7.77,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.7707e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (249.00 K) — transcritical."
+"1,1,2,2-tetrafluoroethene",CF2=CF2,FC(F)=C(F)F,,,6.2624,,,Tc_exp failed: T_cond (313.15 K) ≥ Tc (308.40 K) — transcritical.
+"1,1-difluoroethene",CF2=CH2,C=C(F)F,6.33,6.8669,,8.482,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (299.59 K) — transcritical.
+fluoroethene,CHF=CH2,C=CF,6.62,7.0371,,6.3,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (306.57 K) — transcritical.
+"1,1,2-trifluoroethene",CF2=CHF,FC=C(F)F,7.11,7.7807,,9.433,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (311.58 K) — transcritical.
+"1,1,2,3,3,3-hexafluoroprop-1-ene",CF2=CF-CF3,FC(F)=C(F)C(F)(F)F,7.25,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=5.2098e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=8.3907e-01"
+"2,3,3,3-tetrafluoroprop-1-ene",CH2=CF-CF3,C=C(F)C(F)(F)F,7.63,8.3744,8.5729,9.757,12.357,OK
+"(E)-1,2-difluoroethene",CHF=CHF,F/C=C/F,8.06,8.3851,,4.033,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (291.11 K) — transcritical.
+"3,3,3-trifluoroprop-1-ene",CH2=CH-CF3,C=CC(F)(F)F,7.93,8.493,8.5029,7.1,7.224,OK
+"1,1,2-trifluoroprop-1-ene",CF2=CF-CH3,CC(F)=C(F)F,7.96,8.51,8.579,6.909,7.776,OK
+"(E)-1,2-difluoroprop-1-ene",CHF=CF-CH3,C/C(F)=C/F,8.08,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"(Z)-1,2-difluoroprop-1-ene",CHF=CF-CH3,C/C(F)=C\F,8.08,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"(Z)-1,1,1,2,4,4,4-heptafluorobut-2-ene",CF3-CF=CH-CF3,F/C(=C\C(F)(F)F)C(F)(F)F,7.41,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.0440e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=3.0858e+00"
+"1,1,3,3,3-pentafluoropropene",CF2=CH-CF3,FC(F)=CC(F)(F)F,7.85,8.5139,8.3965,8.457,6.962,OK
+"(E)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,F/C=C/C(F)(F)F,7.94,8.5595,8.6078,7.802,8.41,OK
+"(E)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CHF2,F/C=C(/F)C(F)F,7.94,8.5389,8.6744,7.543,9.249,OK
+"(Z)-1,2,3,3,3-pentafluoro-1-propene",CHF=CF-CF3,F/C=C(\F)C(F)(F)F,7.85,8.5695,8.559,9.166,9.032,OK
+"1,1-difluoroprop-1-ene",CF2=CH-CH3,CC=C(F)F,8.14,8.5775,8.4824,5.375,4.206,OK
+"1,1,3-trifluoroprop-1-ene",CF2=CH-CH2F,FCC=C(F)F,8.09,8.5864,8.7597,6.137,8.278,OK
+"1,1,3,3,3-pentafluoro-2-(trifluoromethyl)prop-1-ene",CF2=C-(CF3)2,FC(F)=C(C(F)(F)F)C(F)(F)F,7.4,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.9167e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.7889e+00"
+"1,1,3,3-tetrafluoroprop-1-ene",CF2=CH-CH2F,FC(F)=CC(F)F,8.03,8.5886,8.5731,6.956,6.763,OK
+"1,1,2,3,3,4,4,4-octafluorobut-1-ene",CF2=CF-CF2-CF3,FC(F)=C(F)C(F)(F)C(F)(F)F,7.41,8.6152,8.5998,16.264,16.057,OK
+(E)-1-fluoroprop-1-ene,CHF=CH-CH3,C/C=C/F,8.27,8.6422,8.5249,4.5,3.082,OK
+(Z)-1-fluoroprop-1-ene,CHF=CH-CH3,C/C=C\F,8.28,8.6422,8.5249,4.374,2.957,OK
+"(E)-1,2,3,3,3-pentafluoroprop-1-ene",CHF=CF-CF3,F/C=C(/F)C(F)(F)F,7.95,8.6333,8.559,8.594,7.66,OK
+"1,1,3,3,4,4,4-heptafluorobut-1-ene",CF2=CH-CF2-CF3,FC(F)=CC(F)(F)C(F)(F)F,7.57,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"(Z)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,F/C(=C(\F)C(F)(F)F)C(F)(F)F,7.5,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"(E)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,F/C(=C(/F)C(F)(F)F)C(F)(F)F,7.6,8.6973,8.6145,14.438,13.348,OK
+2-fluoroprop-1-ene,CH3-CF=CH2,C=C(C)F,8.35,8.7162,8.727,4.386,4.516,OK
+"(Z)-1,2-difluoroethene",CHF=CHF,F/C=C\F,8.44,8.7355,,3.502,,Tc_pred failed: T_cond (313.15 K) ≥ Tc (291.11 K) — transcritical.
+"2-(difluoromethyl)-1,1,3,3,3-pentafluoroprop-1-ene",CF2=C(-CHF2)(-CF3),FC(F)=C(C(F)F)C(F)(F)F,7.82,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.5446e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (249.00 K) — transcritical."
+"(Z)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CF2,F/C=C(\F)C(F)F,8.25,8.7535,8.6744,6.102,5.144,OK
+"(Z)-1,2,3,3,4,4,4-heptafluorobut-1-ene",CHF=CF-CF2-CF3,F/C=C(/F)C(F)(F)C(F)(F)F,7.79,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"1,1,2,3,4,4,4-heptafluorobut-1-ene",CF2=CF-CHF-CF3,FC(F)=C(F)C(F)C(F)(F)F,7.82,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0604e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.1231e+00"
+"2,3,3,4,4,4-hexafluorobut-1-ene",CH2=CF-CF2-CF3,C=C(F)C(F)(F)C(F)(F)F,7.9,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.1805e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.2300e+00"
+"1,1,2,3,3-pentafluoroprop-1-ene",CF2=CF-CHF2,FC(F)=C(F)C(F)F,8.2,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.5006e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=4.0297e-01"
+"1,1,3,3,4,4,4-heptafluoro-2-(trifluoromethyl)but-1-ene",CF2=C(-CF3)CF2-CF3,FC(F)=C(C(F)(F)F)C(F)(F)C(F)(F)F,7.4,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.4818e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.5826e+00"
+"(E)-1,3,3,4,4,4-hexafluorobut-1-ene",CHF=CH-CF2-CF3,F/C=C/C(F)(F)C(F)(F)F,7.97,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=9.5591e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0511e+00"
+"1,1,2,3,3,4,4-heptafluorobut-1-ene",CF2=CF-CF2-CHF2,FC(F)=C(F)C(F)(F)C(F)F,7.88,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.0229e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.1698e+00"
+"1,1,2,3,4,4,4-heptafluoro-3-(trifluoromethyl)but-1-ene",CF2=CF-CF(-CF3)2,FC(F)=C(F)C(F)(C(F)(F)F)C(F)(F)F,7.42,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.1679e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.3331e+00"
+"(Z)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,F/C=C\C(F)(F)F,8.42,8.8426,8.6078,5.019,2.23,OK
+"1,2,3-trifluorocyclopropene",c-CHF-CF=CF-,FC1=C(F)C1F,7.58,8.1184,8.8613,7.102,16.903,OK
+"1,2,3,3-tetrafluorocyclopropene",c-CF=CF-CF2-,FC1=C(F)C1(F)F,7.98,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"1,2,3,3,4,4-hexafluorocyclobutene",c-CF=CF-CF2-CF2-,FC1=C(F)C(F)(F)C1(F)F,7.69,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.8302e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.5805e+00"
+"3-(difluoromethylidene)-1,1,2,2-tetrafluorocyclopropane",CF2=(-C-CF2-CF2-),FC(F)=C1C(F)(F)C1(F)F,7.82,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"3,3-difluoro-1,2-bis(trifluoromethyl)cyclopropene",c-CF2-C(-CF3)=C(-CF3)-,FC(F)(F)C1=C(C(F)(F)F)C1(F)F,7.7,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.5686e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.5941e+00"
+"1-chloro-1,2,2-trifluoroethene",CCIF=CF2,FC(F)=C(F)Cl,8.06,8.5353,8.5025,5.896,5.49,OK
+"2-chloro-1,1,3,3,3-pentafluoroprop-1-ene",CF2=CCI-CF3,FC(F)=C(Cl)C(F)(F)F,7.9,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0855e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=9.4584e-01"
+"(E)-1-chloro-1,2-difluoroethene",CFCI-CHF,F/C=C(\F)Cl,8.38,8.7372,8.6793,4.262,3.571,OK
+"2-chloro-1,1-difluoroethene",CF2=CHCI,FC(F)=CCl,8.44,8.7905,8.7535,4.153,3.715,OK
+"1-bromo-1,2,2-trifluoroethene",CBrF=CF2,FC(F)=C(F)Br,8.37,8.7815,8.7266,4.916,4.261,OK
+"(Z)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,F/C(Cl)=C(/F)C(F)(F)F,8.14,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=5.3062e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=4.6157e-01"
+"(E)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,F/C(Cl)=C(\F)C(F)(F)F,8.13,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=5.3062e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=4.6157e-01"
+"1,1,1,4,4,4-hexafluorobut-2-yne",CF3C=CCF3,FC(F)(F)C#CC(F)(F)F,4.8,6.5018,,35.454,,"Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.2163e+00"
+"1,2-difluoroethyne",FC=CF,FC#CF,6.64,7.0953,7.3095,6.857,10.083,OK
+"3,3,3-trifluoroprop-1-yne",CH=C-CF3,C#CC(F)(F)F,7.74,8.3095,8.6255,7.358,11.44,OK
+fluoroethyne,CF-CH,C#CF,8.41,8.6206,7.547,2.504,10.262,OK
+"1,1,3,3-tetrafluoropropa-1,2-diene",CF2=C=CF2,FC(F)=C=C(F)F,6.43,7.3966,8.9856,15.033,39.744,OK
+"1,1,3-trifluoropropa-1,2-diene",CF2=C=CHF,FC=C=C(F)F,7.77,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"1,1,3,4,4,4-hexafluorobuta-1,2-diene",CF2=C=CF-CF3,FC(F)=C=C(F)C(F)(F)F,7.69,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"propa-1,2-diene",CH2=C=CH2,C=C=C,8.32,8.6108,8.6664,3.496,4.164,OK
+"1,1,4,4,4-pentafluoro-3-(trifluoromethyl)buta-1,2-diene",CF2=C=C-(CF3)2),FC(F)=C=C(C(F)(F)F)C(F)(F)F,7.62,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.3277e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (280.50 K) — transcritical."
+trifluoro(methoxy)methane,CF3-O-CH3,COC(F)(F)F,7.93,8.5387,8.5461,7.676,7.769,OK
+trifluoro(fluoromethoxy)methane,CF3-O-CH2F,FCOC(F)(F)F,7.94,8.5805,8.7277,8.067,9.92,OK
+"1,1,1-trifluoro-2-(trifluoromethoxy)ethane",CF3-CH2-O-CF3,FC(F)(F)COC(F)(F)F,7.72,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.8388e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.8408e+00"
+methoxymethane,CH3-O-CH3,COC,8.31,8.7291,8.5177,5.043,2.499,OK
+1-(trifluoromethoxy)ethene,CF3-O-CH=CH2,C=COC(F)(F)F,4.23,6.2085,8.8945,46.772,110.272,OK
+"1,1,2-trifluoro-2-(trifluoromethoxy)ethene",CF3-O-CF=CF2,FC(F)=C(F)OC(F)(F)F,7.05,8.3,8.8275,17.73,25.213,OK
+"1,1,3,3,3-pentafluoro-2-(trifluoromethoxy)prop-1-ene",CF3-C=CF2-O-CF3,FC(F)=C(OC(F)(F)F)C(F)(F)F,6.63,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=7.4617e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0157e+00"
+1-fluoro-1-(trifluoromethoxy)ethene,CF3-O-CF=CH2,C=C(F)OC(F)(F)F,7.71,8.493,8.8493,10.156,14.777,OK
+"1,1,2,3,3-pentafluoro-3-(trifluoromethoxy)prop-1-ene",CF2=CF-CF2-O-CF3,FC(F)=C(F)C(F)(F)OC(F)(F)F,7.23,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.3804e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.3731e+00"
+"(E)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF3-CF=CF-O-CF3,F/C(OC(F)(F)F)=C(/F)C(F)(F)F,7.24,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0986e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=9.9692e-01"
+"(Z)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF2-O-CF=CF-CF3,F/C(OC(F)(F)F)=C(\F)C(F)(F)F,7.24,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.0986e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=9.9692e-01"
+"1,1,1,2,2-pentafluoro-2-(1,2,2-trifluoroethenoxy)ethane",CF2=CF-O-CF2-CF3,FC(F)=C(F)OC(F)(F)C(F)(F)F,7.35,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.7307e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=3.0349e-01"
+"1,1-difluoro-2,2-bis(trifluoromethoxy)ethene",CF2=C(-O-CF3)2,FC(F)=C(OC(F)(F)F)OC(F)(F)F,7.28,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.1324e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.6596e+00"
+"1-[difluoro(trifluoromethoxy)methoxy]-1,2,2-trifluoroethene",CF2=CF-O-CF2-O-CF3,FC(F)=C(F)OC(F)(F)OC(F)(F)F,7.29,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=5.0500e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=4.2079e-01"
+"2,2,4-trifluoro-1,3-dioxole",c-CH=CF-O-CF2-O-,FC1=COC(F)(F)O1,7.83,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"4-(difluoromethylidene)-2,2-difluoro-1,3-dioxetane",CF2=(-C-O-CF2-O-),FC(F)=C1OC(F)(F)O1,7.69,8.5322,8.9969,10.952,16.995,OK
+"2,2,3,3,4,5-hexafluorofuran",c-CF=CF-CF2-CF2-O-,FC1=C(F)C(F)(F)C(F)(F)O1,7.62,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"2,2-difluoro-4-(fluoromethylidene)-1,3-dioxetane",CHF=(-C-O-CF2-O-),FC=C1OC(F)(F)O1,7.99,8.6651,9.0149,8.449,12.827,OK
+"2,2,4,5-tetrafluoro-1,3-dioxole",c-CF2-O-CF=CF-O-,FC1=C(F)OC(F)(F)O1,8.03,,8.9408,,11.342,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=9.8218e-01"
+"2,2,3-trifluoro-3-(1,2,2-trifluoroethenyl)oxirane",CF2=CF-(-CF-O-CF2-),FC(F)=C(F)C1(F)OC1(F)F,7.75,8.7064,8.8617,12.34,14.344,OK
+"2-(difluoromethyl)-2,3,3-trifluorooxirane",CHF2-(-CF-O-CF2-),FC(F)C1(F)OC1(F)F,8.04,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=8.1209e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=7.1925e-01"
+"3,3,3-trifluoro-2-(trifluoromethyl)prop-1-en-1-one",O=C=C-(CF3)2),O=C=C(C(F)(F)F)C(F)(F)F,7.58,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.2454e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=5.9049e-01"
+2-fluoroethenone,O=C=CHF,O=C=CF,8.11,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"2,3,3,4,4,4-hexafluorobut-1-en-1-one",O=C=CF-CF2-CF3,O=C=C(F)C(F)(F)C(F)(F)F,7.88,,8.9309,,13.336,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.2121e-01"
+"(5S)-3,3,5-trifluoro-1,2,4-trioxolane",c-CF2-O-O-CHF-O-,F[C@@H]1OOC(F)(F)O1,8.03,8.7576,8.2264,9.062,2.446,OK
+difluoromethylperoxy(trifluoro)methane,CF3-O-O-CHF2,FC(F)OOC(F)(F)F,7.92,8.7212,8.763,10.116,10.644,OK
+trifluoro(methylperoxy)methane,CF3-O-O-CH3,COOC(F)(F)F,8.25,8.8502,8.8731,7.276,7.552,OK
+fluoronitrite,FONO,O=NOF,6.74,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"[(Z)-1,2,3,3,3-pentafluoroprop-1-enyl] hypofluorite",CF3CF=CF-OF,FO/C(F)=C(\F)C(F)(F)F,7.51,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+difluoromethyl hypochlorite,CHF2-O-CI,FC(F)OCl,8.16,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+[difluoro(methoxy)methyl]hypofluorite,CH3-CF2-O-F,COC(F)(F)OF,7.87,8.5562,7.5228,8.719,4.412,OK
+"2,2-difluoroethenyl hypofluorite",CF2=CH-O-F,FOC=C(F)F,8.1,8.5886,8.7851,6.032,8.458,OK
+[fluoro(trifluoromethoxy)methyl]hypofluorite,CF3-O-CHF-O-F,FOC(F)OC(F)(F)F,7.88,,7.6573,,2.827,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.1605e-02"
+"1,2,2,2-tetrafluoroethyl hypofluorite",CF3-CHF-O-F,FOC(F)C(F)(F)F,8.05,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=4.2848e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=4.3851e-01"
+"1,1,1,3,3,3-hexafluoropropan-2-yl hypofluorite",(CF3)2-CH-O-F,FOC(C(F)(F)F)C(F)(F)F,7.68,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.0510e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.0663e+00"
+"1,2,2-trifluoroethenyl hypofluorite",CF2=CF-O-F,FOC(F)=C(F)F,8.26,8.7653,8.7809,6.118,6.307,OK
+"1,1,2,3,3-pentafluoroprop-2-enyl hypofluorite",CF2=CF-CF2-O-F,FOC(F)(F)C(F)=C(F)F,7.95,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.8633e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=3.8715e-01"
+trifluoromethoxymethyl hypofluorite,CF3-O-CH2-O-F,FOCOC(F)(F)F,8.17,8.7882,8.8586,7.566,8.428,OK
+fluoromethyl hypofluorite,FC-O-F,FCOF,8.5,8.7989,8.2596,3.517,2.828,OK
+formaldehyde,CH2=O,C=O,8.02,8.2431,8.5823,2.782,7.011,OK
+"2,3,3-trifluoroprop-2-enoyl fluoride",CF(=O)-CF=CF2,O=C(F)C(F)=C(F)F,8.09,8.6967,8.9508,7.499,10.64,OK
+"(Z)-1,3,3,3-tetrafluoroprop-1-en-1-ol",CF3-CH=CF-OH,OC(F)=CC(F)(F)F,8.02,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"3,3-difluoro-2-(trifluoromethyl)prop-2-enoyl fluoride",CF-C(=O)-C(=CF2)-CF3,O=C(F)C(=C(F)F)C(F)(F)F,7.89,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.7426e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (280.50 K) — transcritical."
+"2,2,3,3,3-pentafluoropropanal",CH(=O)-CF2-CF3,O=CC(F)(F)C(F)(F)F,8.06,8.7821,8.798,8.959,9.156,OK
+"1,3,3,3-tetrafluoro-2-(trifluoromethyl)prop-1-en-1-ol",OH-CF=C-(CF3)2,OC(F)=C(C(F)(F)F)C(F)(F)F,7.75,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=4.5997e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (280.50 K) — transcritical."
+difluoromethanethiol,CHF2-SH,FC(F)S,8.07,8.4465,8.1969,4.665,1.573,OK
+trifluoromethanethiol,CF3-SH,FC(F)(F)S,8.04,8.506,7.7927,5.797,3.076,OK
+trifluoro(trifluoromethylsulfanyl)methane,CF2-S-CF3,FC(F)(F)SC(F)(F)F,7.58,8.5597,8.3376,12.925,9.995,OK
+"1,1,2,2,2-pentafluoroethanethiol",CF3-CF2-SH,FC(F)(F)C(F)(F)S,7.78,8.5676,8.5036,10.123,9.301,OK
+"2,2,2-trifluoroethanethial",CF3-CH=S,FC(F)(F)C=S,8.16,8.6211,8.6643,5.651,6.181,OK
+"1,1,1,2,2-pentafluoro-2-(trifluoromethylsulfanyl)ethane",CF3-S-CF2-CF3,FC(F)(F)SC(F)(F)C(F)(F)F,7.58,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+[difluoro(trifluoromethylsulfanyl)methyl]peroxy-trifluoromethane,CF3-O-O-CF2-S-CF3,FC(F)(F)OOC(F)(F)SC(F)(F)F,7.39,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"N,N,1,1-tetrafluoromethanamine",CHF2-NF2,FC(F)N(F)F,7.16,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+octafluoromethanetetramine,C-(NF2)4,FN(F)C(N(F)F)(N(F)F)N(F)F,6.75,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=3.3027e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=3.3075e+00"
+"N-(difluoromethyl)-N,1,1,1-tetrafluoromethanamine",CF3-NF-CHF2,FC(F)N(F)C(F)(F)F,7.57,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.5060e-01; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.3954e-01"
+"N-(difluoromethyl)-1,1,1-trifluoro-N-(trifluoromethyl)methanamine",C3HF8N,FC(F)N(C(F)(F)F)C(F)(F)F,7.41,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.8264e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.6939e+00"
+"2,3,3,3-tetrafluoro-N-(trifluoromethyl)prop-1-en-1-imine",CF3-CF=C=N-CF3,FC(=C=NC(F)(F)F)C(F)(F)F,7.45,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.4092e+00; Tc_pred failed: T_evap (283.15 K) ≥ Tc (280.50 K) — transcritical."
+"2,3,4-trifluoroazete",c-N-CF=CF-CF=N-,FC1=NC(F)=C1F,8.23,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing
+"2-diazo-1,1,1-trifluoroethane",N=N=CH-CF3,[N-]=[N+]=CC(F)(F)F,8.18,8.7505,9.0219,6.975,10.292,OK
+"1,2,2-trifluoro-N,N-bis(trifluoromethyl)ethenamine",CF2=CF-N-(CFa)2,FC(F)=C(F)N(C(F)(F)F)C(F)(F)F,7.44,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.6803e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.7357e+00"
+"2,2,2-trifluoro-N-(trifluoromethyl)ethanimine",CF3-CH=N-CF3,FC(F)(F)/C=N/C(F)(F)F,8.01,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=2.4446e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=2.5959e+00"
+carbon dioxide,CO2,O=C=O,,,8.4818,,,Tc_exp failed: T_cond (313.15 K) ≥ Tc (304.10 K) — transcritical.
+ammonia,NH3,N,8.32,8.5899,8.2853,3.244,0.417,OK
+"1,1,1,2-tetrafluoroethane",CF3CH2F,FCC(F)(F)F,,8.4838,8.3384,,,OK
+"1,1,1,2,3,3,3-heptafluoropropane",CF3CHFCF3,FC(C(F)(F)F)C(F)(F)F,,,,,,"Tc_exp failed: T2s N-R did not converge. Last T=313.65 K, residual=1.3746e+00; Tc_pred failed: T2s N-R did not converge. Last T=313.65 K, residual=1.3756e+00"
+pentafluoroethane,CHF2CF3,FC(F)C(F)(F)F,,7.6923,8.0318,,,OK
+"1,1,1-trifluoroethane",CF3CH3,CC(F)(F)F,,7.9073,7.7864,,,OK
+"3,3,3-trifluoropropene",CH2=CHCF3,C=CC(F)(F)F,,8.493,8.5029,,,OK
+nan,nan,nan,,,,,,Tc_exp/Pc/omega missing; Tc_pred/Pc/omega missing

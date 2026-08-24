@@ -1,0 +1,13 @@
+variant,target,mean_residual,median_residual
+XGB-A,Tc (K),0.6131,-2.4524
+XGB-A,Pc (bar),-0.4239,-0.1204
+XGB-A,omega (-),0.0067,0.0023
+XGB-B,Tc (K),0.5412,-2.0634
+XGB-B,Pc (bar),-0.2978,-0.2438
+XGB-B,omega (-),0.0043,0.0001
+XGB-C,Tc (K),1.5558,-1.29
+XGB-C,Pc (bar),-0.443,-0.1044
+XGB-C,omega (-),0.0069,0.0037
+XGB-D,Tc (K),1.2034,-1.6026
+XGB-D,Pc (bar),-0.3336,-0.2448
+XGB-D,omega (-),0.0028,-0.0002

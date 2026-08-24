@@ -1,0 +1,44 @@
+{
+  "raw_rows": 7829,
+  "raw_missing": {
+    "Tc (K)": 461,
+    "Pc (bar)": 537,
+    "omega (-)": 1952
+  },
+  "invalid_smiles_dropped": 0,
+  "duplicate_structures_found": 0,
+  "label_conflicts_in_duplicates": [],
+  "excluded_by_class": {
+    "ok": 7450,
+    "inorganic_or_metal_containing": 281,
+    "multi_fragment_salt_or_mixture": 89,
+    "bare_element_no_hydrogens": 9
+  },
+  "excluded_refrigerant_overlap": 24,
+  "usable_rows_final": 7426,
+  "usable_per_target": {
+    "Tc (K)": 6972,
+    "Pc (bar)": 6934,
+    "omega (-)": 5627
+  },
+  "target_ranges": {
+    "Tc (K)": {
+      "min": 33.13,
+      "max": 1760.88,
+      "mean": 674.7659853700517,
+      "median": 650.0
+    },
+    "Pc (bar)": {
+      "min": 1.51,
+      "max": 449.0,
+      "mean": 28.148989773146816,
+      "median": 27.5
+    },
+    "omega (-)": {
+      "min": -0.215,
+      "max": 2.389,
+      "mean": 0.5292105740181269,
+      "median": 0.462
+    }
+  }
+}

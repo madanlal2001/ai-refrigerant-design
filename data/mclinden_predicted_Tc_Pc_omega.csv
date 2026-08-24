@@ -1,0 +1,97 @@
+﻿PubChem_Number,IUPAC_Name,Structure,SMILES,ASHRAE_Designation,COP,Qvol_MJ_m3,GWP100,Tc_K,Tc_predicted (K),Pc_bar,omega,Comments
+8252,propene (propylene),CH2=CH-CH3,CC=C,R-1270,7.77,4.6,2,364.2,367.5874665,43.57462876,0.138564176,retain
+6334,propane,CH3-CH2-CH3,CCC,R-290,7.81,3.84,3,369.9,378.0878957,40.96972264,0.182128208,retain
+6335,prop-1-yne,CH3-C#CH,CC#C,,8.29,3.05,2,387.4,391.1438124,55.60534473,0.200962013,see main text
+6360,2-methylpropane (isobutane),(CH3)2-CH-CH3,CC(C)C,R-600a,8.13,1.59,4,407.8,407.4909489,37.30511687,0.210159063,"low Qvol, drop"
+6345,difluoromethane,CH2F2,C(F)F,R-32,7.68,7.29,677,351.3,354.9312854,54.81044769,0.254798772,retain
+9620,fluoroethane,CH2F-CH3,CCF,R-161,8.07,4.12,4,375.3,379.0629846,48.39685267,0.215461751,retain
+6368,"1,1-difluoroethane",CHF2-CH3,CC(F)F,R-152a,8.22,2.82,138,386.4,380.2818993,44.78498205,0.258912435,retain
+12584494,"1-(difluoromethyl)-1,2,2,3,3-pentafluorocyclopropane",CHF2-(-CF-CF2-CF2-),C(C1(C(C1(F)F)(F)F)F)(F)F,,7.77,1.05,156,405.5,434.4804829,35.84703027,0.306103925,"low Qvol, drop"
+6369,"1,1-difluoroethene",CF2=CH2,C=C(F)F,R-1132a,6.33,7.4,0,324.2,324.2426346,46.09383796,0.225453034,toxic
+6339,fluoroethene,CHF=CH2,C=CF,R-1141,6.62,8.52,0,327.1,332.0521366,50.91430875,0.150522655,retain
+9665,"1,1,2-trifluoroethene",CF2=CHF,C(=C(F)F)F,R-1123,7.11,5.57,3,343,332.9202173,43.3041199,0.217231646,commercial interest
+8302,"1,1,2,3,3,3-hexafluoroprop-1-ene",CF2=CF-CF3,C(=C(F)F)(C(F)(F)F)F,R-1216,7.25,2.65,9,359,366.7257812,30.2747533,0.236331861,toxic
+2776731,"2,3,3,3-tetrafluoroprop-1-ene",CH2=CF-CF3,C=C(C(F)(F)F)F,R-1234yf,7.63,2.79,0,367.9,363.2801234,34.27701554,0.224050162,commercialized
+5365501,"(E)-1,2-difluoroethene",CHF=CHF,C(=C/F)\F,R-1132(E),8.06,4.07,1,370.5,363.16482,46.49762586,0.202682976,retain
+12672,"3,3,3-trifluoroprop-1-ene",CH2=CH-CF3,C=CC(F)(F)F,R-1243zf,7.93,2.57,0,376.9,373.3142411,36.38947644,0.237038314,"retain, but tox concerns"
+59951260,"(E)-1,2-difluoroprop-1-ene",CHF=CF-CH3,F/C(C)=C/F,R-1252ye(E),8.08,2.48,2,380.7,391.2725488,40.80250501,0.21809286,retain
+16719786,"(Z)-1,2-difluoroprop-1-ene",CHF=CF-CH3,F/C(C)=C\F,R-1252ye(Z),8.08,2.48,2,380.7,390.9223302,41.14546219,0.220955918,retain
+5708514,"(Z)-1,1,1,2,4,4,4-heptafluorobut-2-ene",CF3-CF=CH-CF3,C(=C(/C(F)(F)F)\F)\C(F)(F)F,R-1327myz(Z),7.41,1.6,2,381,395.7265299,27.09435712,0.287230112,"low Qvol, drop"
+69647,"1,1,3,3,3-pentafluoropropene",CF2=CH-CF3,C(=C(F)F)C(F)(F)F,R-1225zc,7.85,1.98,4,381.2,378.4555074,32.19182419,0.232825926,"low Qvai, drop"
+5708720,"(E)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,C(=C/F)\C(F)(F)F,R-1234ze(E),7.94,2.24,0,382.5,400.1013318,35.0915586,0.227868648,commercialized
+23237196,"(E)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CHF2,C(=C(\C(F)F)/F)\F,R-1234ye(E),7.94,2.19,0,382.7,393.2426219,37.33440236,0.231598295,"low Qvai, drop"
+5708673,"(Z)-1,2,3,3,3-pentafluoro-1-propene",CHF=CF-CF3,C(=C(/C(F)(F)F)\F)\F,R-1225ye(Z),7.85,1.91,2,384,380.2991186,32.460565,0.222733186,commercial interest
+61109,"1,1,3,3,3-pentafluoro-2-(trifluoromethyl)prop-1-ene",CF2=C-(CF3)2,C(=C(F)F)(C(F)(F)F)C(F)(F)F,,7.4,1.21,2,386.6,388.9160526,26.35941726,0.303363469,"highly toxic, low Qval, drop"
+5463203,(E)-1-fluoroprop-1-ene,CHF=CH-CH3,C/C=C/F,R-1261ze(E),8.27,2.52,1,390.7,397.4242122,41.82807264,0.209101472,retain
+6432206,(Z)-1-fluoroprop-1-ene,CHF=CH-CH3,C/C=C\F,R-1261ze(Z),8.28,2.53,1,390.7,397.8658788,42.0804534,0.216867646,retain
+6329539,"(E)-1,2,3,3,3-pentafluoroprop-1-ene",CHF=CF-CF3,C(=C(\C(F)(F)F)/F)\F,R-1225ye(E),7.95,1.68,0,390.8,366.8131485,32.2893739,0.220357003,"low Qvai, drop"
+21096859,"1,1,3,3,4,4,4-heptafluorobut-1-ene",CF2=CH-CF2-CF3,C(=C(F)F)C(C(F)(F)F)(F)F,R-1327czc,7.57,1.26,2,391.2,400.3873829,27.44657929,0.288633936,"low Qval, drop"
+3034116,"(Z)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,C(=C(\C(F)(F)F)/F)(\C(F)(F)F)/F,R-1318myy(Z),7.5,1.09,2,394.5,382.2742758,25.75987953,0.294423838,"low Qvai, drop"
+2775851,"(E)-1,1,1,2,3,4,4,4-octafluorobut-2-ene",CF3-CF=CF-CF3,C(=C(/C(F)(F)F)\F)(\C(F)(F)F)/F,R-1318myy(E),7.6,1.11,5,394.5,380.3805053,25.6052647,0.288818789,"low Qvai, drop"
+70899,2-fluoroprop-1-ene,CH3-CF=CH2,CC(=C)F,R-1261,8.35,1.87,2,399.6,373.3678523,42.21495942,0.185320979,"low Qvai, drop"
+5462921,"(Z)-1,2-difluoroethene",CHF=CHF,C(=C\F)\F,R-1132(Z),8.44,2.1,1,405.8,372.4958113,46.97743385,0.200693164,"low Qvai, drop"
+20496975,"2-(difluoromethyl)-1,1,3,3,3-pentafluoroprop-1-ene",CF2=C(-CHF2)(-CF3),C(C(=C(F)F)C(F)(F)F)(F)F,,7.82,0.93,2,408.6,412.1145938,28.25038754,0.300678232,"low Qwal, drop"
+23237197,"(Z)-1,2,3,3-tetrafluoroprop-1-ene",CHF=CF-CF2,C(=C(/C(F)F)\F)\F,R-1234ye(Z),8.25,1.4,1,409.4,401.0423703,38.09471759,0.234388954,"low Qval, drop"
+12543097,"(Z)-1,2,3,3,4,4,4-heptafluorobut-1-ene",CHF=CF-CF2-CF3,C(=C(/C(C(F)(F)F)(F)F)\F)\F,R-1327eyc(Z),7.79,0.88,1,409.6,395.711157,27.41167362,0.292847955,"low Qvai, drop"
+21096848,"1,1,2,3,4,4,4-heptafluorobut-1-ene",CF2=CF-CHF-CF3,C(C(=C(F)F)F)(C(F)(F)F)F,R-1327cye,7.82,0.96,3,411.2,409.2402488,28.20874271,0.287086868,"low Qvai, drop"
+12980437,"2,3,3,4,4,4-hexafluorobut-1-ene",CH2=CF-CF2-CF3,C=C(C(C(F)(F)F)(F)F)F,R-1336fyc,7.9,0.89,1,412.3,388.3790981,29.06070132,0.284112059,"low Qval, drop"
+594043,"1,1,2,3,3-pentafluoroprop-1-ene",CF2=CF-CHF2,C(C(=C(F)F)F)(F)F,R-1225yc,8.2,1.2,4,413.5,394.3665564,35.18652796,0.247827978,"low Qvail, drop"
+12576087,"1,1,3,3,4,4,4-heptafluoro-2-(trifluoromethyl)but-1-ene",CF2=C(-CF3)CF2-CF3,C(=C(F)F)(C(C(F)(F)F)(F)F)C(F)(F)F,,7.4,0.55,2,415.5,415.3165195,23.19762314,0.359864985,"low Qvai, drop"
+12633094,"(E)-1,3,3,4,4,4-hexafluorobut-1-ene",CHF=CH-CF2-CF3,C(=C/F)\C(C(F)(F)F)(F)F,R-1336ezc(E),7.97,0.8,1,417.8,414.8915637,29.52656734,0.306903952,"low Qvail, drop"
+11116025,"(Z)-1,3,3,3-tetrafluoroprop-1-ene",CHF=CH-CF3,C(=C\F)\C(F)(F)F,R-1234ze(Z),8.42,0.92,0,423.3,401.9562754,35.65976935,0.23507145,"low Qvol, drop"
+12767,"1,2,3,3,4,4-hexafluorocyclobutene",c-CF=CF-CF2-CF2-,C1(=C(C(C1(F)F)(F)F)F)F,R-C1316,7.69,1.54,1,385.7,442.2355041,34.62516802,0.255299957,"low Qvol, drop"
+12585099,"3-(difluoromethylidene)-1,1,2,2-tetrafluorocyclopropane",CF2=(-C-CF2-CF2-),C1(=C(F)F)C(C1(F)F)(F)F,,7.82,1.35,2,395.9,399.0895834,34.18579137,0.253594348,"low Qvol, drop"
+23234747,"3,3-difluoro-1,2-bis(trifluoromethyl)cyclopropene",c-CF2-C(-CF3)=C(-CF3)-,C1(=C(C1(F)F)C(F)(F)F)C(F)(F)F,,7.7,0.6,0,417.3,421.9739233,27.3759251,0.322133344,"low Qvol, drop"
+102335,"2-chloro-1,1,3,3,3-pentafluoroprop-1-ene",CF2=CCI-CF3,C(=C(F)F)(C(F)(F)F)Cl,R-1215xc,7.9,1.38,6,395.8,415.8809418,32.03796024,0.247398864,"low Qvol, drop"
+5463105,"(E)-1-chloro-1,2-difluoroethene",CFCI-CHF,C(=C(\F)/Cl)\F,R-1112a,8.38,1.84,4,402.5,403.7212426,45.06162509,0.229380768,"low Qvol, drop"
+13717712,"(Z)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,C(=C(\F)/Cl)(\C(F)(F)F)/F,R-1215yb(Z),8.14,0.88,9,420.6,419.6979977,32.09930239,0.235863006,"low Qvol, drop"
+22714818,"(E)-1-chloro-1,2,3,3,3-pentafluoro-prop-1-ene",CCIF=CF-CF3,C(=C(/F)\Cl)(\C(F)(F)F)/F,R-1215yb(E),8.13,0.88,10,420.6,413.357471,31.57713704,0.234464491,"low Qvol, drop"
+69654,"1,1,1,4,4,4-hexafluorobut-2-yne",CF3C=CCF3,C(#CC(F)(F)F)C(F)(F)F,,4.8,3.22,1,320.8,392.8435284,28.16445435,0.278664897,"low COP, drop"
+69578,"3,3,3-trifluoroprop-1-yne",CH=C-CF3,C#CC(F)(F)F,,7.74,3.66,1,363.3,383.1522573,38.76313211,0.228210307,"possibly stable, retain"
+10037,"propa-1,2-diene",CH2=C=CH2,C=C=C,,8.32,2.58,2,390.3,354.8355559,52.16701763,0.148681948,see main text
+73947,trifluoro(methoxy)methane,CF3-O-CH3,COC(F)(F)F,R-E143a,7.93,2.53,523,377.9,380.86809,36.68350024,0.301943598,retain
+2777154,"1,1,1-trifluoro-2-(trifluoromethoxy)ethane",CF3-CH2-O-CF3,C(C(F)(F)F)OC(F)(F)F,R-E236fa1,7.72,1.23,679,394.1,401.180994,29.60958219,0.371542748,"low Qval, drop"
+8254,methoxymethane,CH3-O-CH3,COC,R-E170,8.31,2.79,0,400.4,400.676431,52.584112,0.233279617,retain
+9855459,1-(trifluoromethoxy)ethene,CF3-O-CH=CH2,C=COC(F)(F)F,,4.23,4.16,1,314.8,321.57373,34.22354899,0.270090521,"low COP, drop"
+21940994,1-fluoro-1-(trifluoromethoxy)ethene,CF3-O-CF=CH2,C=C(OC(F)(F)F)F,,7.71,2.13,1,377.5,347.0242611,33.67609817,0.289722161,"low Qval, drop"
+14875812,"(E)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF3-CF=CF-O-CF3,C(=C(/OC(F)(F)F)\F)(\C(F)(F)F)/F,,7.24,1.09,2,388,370.4441508,25.32629481,0.33515589,"low Qvol, drop"
+45075659,"(Z)-1,2,3,3,3-pentafluoro-1-(trifluoromethoxy)prop-1-ene",CF2-O-CF=CF-CF3,C(=C(\OC(F)(F)F)/F)(\C(F)(F)F)/F,,7.24,1.09,2,388,372.7800427,25.33517052,0.339954844,"low Qvol, drop"
+82672,"1,1,1,2,2-pentafluoro-2-(1,2,2-trifluoroethenoxy)ethane",CF2=CF-O-CF2-CF3,C(=C(F)F)(OC(C(F)(F)F)(F)F)F,,7.35,0.69,4,395.9,384.8451364,25.432471,0.354369425,"low Qvol, drop"
+71405026,"1-[difluoro(trifluoromethoxy)methoxy]-1,2,2-trifluoroethene",CF2=CF-O-CF2-O-CF3,C(=C(F)F)(OC(OC(F)(F)F)(F)F)F,,7.29,0.82,10,401.2,401.539374,24.02208268,0.385226399,"low Qvol, drop"
+20271514,"2,2,4-trifluoro-1,3-dioxole",c-CH=CF-O-CF2-O-,C1=C(OC(O1)(F)F)F,,7.83,2.08,1,375.7,399.415786,38.81051676,0.264089319,"low Qval, drop"
+12140230,"2,2,3,3,4,5-hexafluorofuran",c-CF=CF-CF2-CF2-O-,C1(=C(OC(C1(F)F)(F)F)F)F,,7.62,1.44,1,388.2,414.3862247,31.83791244,0.290978958,"low Qvai, drop"
+69049115,"2,2-difluoro-4-(fluoromethylidene)-1,3-dioxetane",CHF=(-C-O-CF2-O-),C(=C1OC(O1)(F)F)F,,7.99,1.77,1,389.7,385.5651074,41.53090613,0.204097866,"low Qvail, drop"
+11744752,"2,2,4,5-tetrafluoro-1,3-dioxole",c-CF2-O-CF=CF-O-,C1(=C(OC(O1)(F)F)F)F,,8.03,2.38,1,400,393.6065811,34.77618819,0.271291594,retain
+17798504,"2-(difluoromethyl)-2,3,3-trifluorooxirane",CHF2-(-CF-O-CF2-),C(C1(C(O1)(F)F)F)(F)F,,8.04,1.15,627,408,410.2347513,36.88512312,0.310713546,"low Qval, drop"
+21866237,"3,3,3-trifluoro-2-(trifluoromethyl)prop-1-en-1-one",O=C=C-(CF3)2),C(=C=O)F,,7.58,1.38,1,388,382.078094,54.68402353,0.281230381,"low Qvol, drop"
+54034777,2-fluoroethenone,O=C=CHF,C(=C(C(C(F)(F)F)(F)F)F)=O,,8.11,2.37,1,400.7,413.9682395,27.09528587,0.346871873,non-fluor analog is toxic
+136485,"2,3,3,4,4,4-hexafluorobut-1-en-1-one",O=C=CF-CF2-CF3,C(=C(C(F)(F)F)C(F)(F)F)=O,,7.88,0.76,1,415.7,405.5960277,27.71571631,0.33631957,"low Qvai, drop"
+23234511,"(5S)-3,3,5-trifluoro-1,2,4-trioxolane",c-CF2-O-O-CHF-O-,[C@@H]1(OC(OO1)(F)F)F,,8.03,1.79,537,389.7,461.0016452,42.20875495,0.351338098,"peroxide, low Qval, drop"
+18386358,difluoromethylperoxy(trifluoro)methane,CF3-O-O-CHF2,C(OOC(F)(F)F)(F)F,,7.92,1.41,459,397.8,399.1624475,31.68588861,0.330495505,"peroxide, low Qval, drop"
+18469511,trifluoro(methylperoxy)methane,CF3-O-O-CH3,COOC(F)(F)F,,8.25,1.03,65,419.4,415.7060333,35.92703022,0.30231635,"peroxide, low Qval, drop"
+57828726,[fluoro(trifluoromethoxy)methyl]hypofluorite,CF3-O-CHF-O-F,C(OC(F)(F)F)(OF)F,,7.88,1.42,61,395.9,409.4260482,32.11747203,0.262699544,"low Qvai, drop"
+22084405,"1,2,2,2-tetrafluoroethyl hypofluorite",CF3-CHF-O-F,C(C(F)(F)F)(OF)F,,8.05,1.4,65,399.8,379.4964229,35.01834235,0.258145712,"low Qvai, drop"
+20089354,"1,1,1,3,3,3-hexafluoropropan-2-yl hypofluorite",(CF3)2-CH-O-F,C(C(F)(F)F)(C(F)(F)F)OF,,7.68,1.1,85,400.1,403.5419723,28.76001861,0.295775957,"low Qval, drop"
+23576718,trifluoromethoxymethyl hypofluorite,CF3-O-CH2-O-F,C(OC(F)(F)F)OF,,8.17,1.06,12,415.2,416.3008803,38.24882265,0.28732399,"low Qvai, drop"
+3013928,formaldehyde,CH2=O,C(=C(F)F)(C(=O)F)F,,8.02,5.19,1,371.1,398.9203075,38.03773364,0.315969387,"toxic, drop"
+58856309,"2,3,3-trifluoroprop-2-enoyl fluoride",CF(=O)-CF=CF2,C(=C(/O)\F)\C(F)(F)F,,8.09,1.56,11,399.7,398.9203075,38.03773364,0.315969387,"low Qvai, drop"
+12635489,"(Z)-1,3,3,3-tetrafluoroprop-1-en-1-ol",CF3-CH=CF-OH,C(=C(F)F)(C(=O)F)C(F)(F)F,,8.02,1.34,1,400.9,421.6626521,29.74808655,0.357402646,"low Qval, drop"
+12524720,"2,2,3,3,3-pentafluoropropanal",CH(=O)-CF2-CF3,C(=C(O)F)(C(F)(F)F)C(F)(F)F,,8.06,0.93,16,413.5,469.538343,28.80443833,0.465269351,"low Qval, drop"
+712,"1,3,3,3-tetrafluoro-2-(trifluoromethyl)prop-1-en-1-ol",OH-CF=C-(CF3)2,C=O,,7.75,0.66,1,418.1,411.3791295,63.78773058,0.249011214,"low Qvai, drop"
+19050251,difluoromethanethiol,CHF2-SH,C(F)(F)S,,8.07,4.01,1,373,399.6960973,58.39564858,0.262104398,retain
+30555,trifluoromethanethiol,CF3-SH,C(F)(F)(F)S,,8.04,2.9,1,376.2,413.6786831,45.10960929,0.269083113,retain
+136206,trifluoro(trifluoromethylsulfanyl)methane,CF2-S-CF3,C(F)(F)(F)SC(F)(F)F,,7.58,2.16,3,377.7,402.0499711,29.37860432,0.285443116,"low Qwal, drop"
+4713114,"1,1,2,2,2-pentafluoroethanethiol",CF3-CF2-SH,C(C(F)(F)S)(F)(F)F,,7.78,1.68,1,386.1,404.399858,33.35833646,0.315674241,"low Qvai, drop"
+23498413,"2,2,2-trifluoroethanethial",CF3-CH=S,C(=S)C(F)(F)F,,8.16,1.95,7,388.3,413.0089249,47.40027541,0.171036296,"low Qvai, drop"
+19779344,"1,1,1,2,2-pentafluoro-2-(trifluoromethylsulfanyl)ethane",CF3-S-CF2-CF3,C(C(F)(F)SC(F)(F)F)(F)(F)F,,7.58,0.86,3,406.2,410.7095987,26.16094934,0.335543881,"low Qval, drop"
+54040926,[difluoro(trifluoromethylsulfanyl)methyl]peroxy-trifluoromethane,CF3-O-O-CF2-S-CF3,C(OOC(F)(F)SC(F)(F)F)(F)(F)F,,7.39,0.66,5,413.4,471.9346429,24.64326862,0.381175322,"low Qwl, peroxide, drop"
+141139,"N,N,1,1-tetrafluoromethanamine",CHF2-NF2,C(N(F)F)(F)F,,7.16,5.24,20,341.6,293.4057137,37.44541661,0.211934939,retain
+140187,octafluoromethanetetramine,C-(NF2)4,C(N(F)F)(N(F)F)(N(F)F)N(F)F,,6.75,1.45,898,367.6,360.8337981,30.16105052,0.255788762,"low Qvai, drop"
+10214404,"N-(difluoromethyl)-N,1,1,1-tetrafluoromethanamine",CF3-NF-CHF2,C(N(C(F)(F)F)F)(F)F,,7.57,2.07,49,374.6,341.3921456,27.70718853,0.247582581,"low Qvai, drop"
+144610,"N-(difluoromethyl)-1,1,1-trifluoro-N-(trifluoromethyl)methanamine",C3HF8N,C(N(C(F)(F)F)C(F)(F)F)(F)F,,7.41,1.22,64,389.8,390.7535227,25.42451836,0.324977674,"low Qval, drop"
+23233616,"2,3,3,3-tetrafluoro-N-(trifluoromethyl)prop-1-en-1-imine",CF3-CF=C=N-CF3,C(=C(C(F)(F)F)F)=NC(F)(F)F,,7.45,1.07,1,390.8,427.271046,37.04648651,0.488758955,"low Qval, drop"
+13899145,"2,3,4-trifluoroazete",c-N-CF=CF-CF=N-,C1(=C(N=C1F)F)F,,8.23,1.91,1,397.4,465.633398,48.08850845,0.443179278,"low Qvai, drop"
+9898808,"2-diazo-1,1,1-trifluoroethane",N=N=CH-CF3,C(=[N+]=[N-])C(F)(F)F,,8.18,1.54,70,398.4,424.29954,45.90436077,0.225610391,"low Qvai, drop"
+10220269,"1,2,2-trifluoro-N,N-bis(trifluoromethyl)ethenamine",CF2=CF-N-(CFa)2,C(=C(F)F)(N(C(F)(F)F)C(F)(F)F)F,,7.44,0.66,11,410.5,408.9879673,32.99485847,0.501309814,"low Qval, drop"
+23235599,"2,2,2-trifluoro-N-(trifluoromethyl)ethanimine",CF3-CH=N-CF3,C(=NC(F)(F)F)C(F)(F)F,,8.01,0.83,54,417.1,371.7819279,30.04791577,0.298773765,"low Qval, drop"
+222,ammonia,NH3,N,R-717,8.32,5.26,0,405.4,282.6972352,69.74026027,0.221163377,retain

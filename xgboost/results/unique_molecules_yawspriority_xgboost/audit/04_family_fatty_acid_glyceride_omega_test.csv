@@ -1,0 +1,12 @@
+canonical_smiles,name,cluster_id,target,actual,pred,abs_error,src_omega
+CCCCC(C)CCCCCCCCCCCCC(=O)O,14-methyloctadecanoic acid,1,omega (-),1.07,1.0351193,0.0348807048797608,yaws
+CC(C)CCCCCCCCCCCCCCCC(=O)O,17-methyloctadecanoic acid,2,omega (-),1.07,1.028942,0.0410580110549927,yaws
+CCCCCCCCCC(C)CCCCCCCC(=O)O,9-methyloctadecanoic acid,1,omega (-),1.07,1.0357872,0.0342127752304077,yaws
+CCCCCCCCCCCCCCCCCC(=O)OCCCC,butyl stearate,2,omega (-),1.025,0.9950172,0.029982829093933,yaws
+CCCCCCCCOC(=O)CCCCC(=O)OCCCCCCCC,di-n-octyl adipate,2,omega (-),1.048,1.0344476,0.0135524492263794,yaws
+CCCCCCOC(=O)CCCCC(=O)OCCCCCC,dihexyl adipate,2,omega (-),1.094,1.0432264,0.0507736387252808,yaws
+CCCCCCCC/C=C\CCCCCCCC(=O)OCC(O)CO,glycerol 1-monooleate,2,omega (-),0.992,0.97160023,0.0203997654914855,yaws
+CCCCC/C=C\C/C=C\CCCCCCCC(=O)O,linoleic acid,2,omega (-),1.18,0.9897786,0.1902214217185973,yaws
+CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O,linolenic acid,2,omega (-),1.186,0.96439564,0.2216043577194213,yaws
+CCCCCCCC/C=C\CCCCCCCC(=O)OC,methyl oleate,2,omega (-),1.049,0.9851788,0.063821171760559,yaws
+CCCCCCCC/C=C\CCCCCCCC(=O)O,oleic acid,2,omega (-),1.182,1.0042015,0.1777984685897826,yaws

@@ -1,0 +1,124 @@
+{
+  "Tc (K)": {
+    "ranked_by_RMSE": [
+      {
+        "variant": "XGB-D",
+        "RMSE": 25.0769,
+        "MAE": 16.2905,
+        "MedAE": 10.7506,
+        "MaxAE": 126.2973
+      },
+      {
+        "variant": "XGB-C",
+        "RMSE": 26.2513,
+        "MAE": 17.0181,
+        "MedAE": 10.9718,
+        "MaxAE": 123.7222
+      },
+      {
+        "variant": "XGB-B",
+        "RMSE": 27.988,
+        "MAE": 18.4898,
+        "MedAE": 11.3592,
+        "MaxAE": 144.9265
+      },
+      {
+        "variant": "XGB-A",
+        "RMSE": 31.1722,
+        "MAE": 19.8383,
+        "MedAE": 11.0042,
+        "MaxAE": 133.0551
+      }
+    ],
+    "lowest_RMSE_variant": "XGB-D",
+    "resolution(0.5*medAE)": 5.5045,
+    "effectively_similar_to_best": [
+      "XGB-D",
+      "XGB-C",
+      "XGB-B"
+    ],
+    "verdict": "XGB-D lowest RMSE; ['XGB-D', 'XGB-C', 'XGB-B'] effectively similar on this split"
+  },
+  "Pc (bar)": {
+    "ranked_by_RMSE": [
+      {
+        "variant": "XGB-D",
+        "RMSE": 3.5606,
+        "MAE": 1.8603,
+        "MedAE": 0.9083,
+        "MaxAE": 24.7666
+      },
+      {
+        "variant": "XGB-A",
+        "RMSE": 3.5689,
+        "MAE": 1.8778,
+        "MedAE": 0.9024,
+        "MaxAE": 21.8438
+      },
+      {
+        "variant": "XGB-C",
+        "RMSE": 3.6197,
+        "MAE": 1.8901,
+        "MedAE": 0.8806,
+        "MaxAE": 23.8456
+      },
+      {
+        "variant": "XGB-B",
+        "RMSE": 3.6614,
+        "MAE": 1.8777,
+        "MedAE": 0.8601,
+        "MaxAE": 26.8268
+      }
+    ],
+    "lowest_RMSE_variant": "XGB-D",
+    "resolution(0.5*medAE)": 0.4455,
+    "effectively_similar_to_best": [
+      "XGB-D",
+      "XGB-A",
+      "XGB-C",
+      "XGB-B"
+    ],
+    "verdict": "XGB-D lowest RMSE; ['XGB-D', 'XGB-A', 'XGB-C', 'XGB-B'] effectively similar on this split"
+  },
+  "omega (-)": {
+    "ranked_by_RMSE": [
+      {
+        "variant": "XGB-C",
+        "RMSE": 0.0814,
+        "MAE": 0.0485,
+        "MedAE": 0.02,
+        "MaxAE": 0.3471
+      },
+      {
+        "variant": "XGB-A",
+        "RMSE": 0.0829,
+        "MAE": 0.0495,
+        "MedAE": 0.0199,
+        "MaxAE": 0.359
+      },
+      {
+        "variant": "XGB-D",
+        "RMSE": 0.0847,
+        "MAE": 0.046,
+        "MedAE": 0.0147,
+        "MaxAE": 0.3618
+      },
+      {
+        "variant": "XGB-B",
+        "RMSE": 0.086,
+        "MAE": 0.046,
+        "MedAE": 0.0142,
+        "MaxAE": 0.3736
+      }
+    ],
+    "lowest_RMSE_variant": "XGB-C",
+    "resolution(0.5*medAE)": 0.0084,
+    "effectively_similar_to_best": [
+      "XGB-C",
+      "XGB-A",
+      "XGB-D",
+      "XGB-B"
+    ],
+    "verdict": "XGB-C lowest RMSE; ['XGB-C', 'XGB-A', 'XGB-D', 'XGB-B'] effectively similar on this split"
+  }
+}

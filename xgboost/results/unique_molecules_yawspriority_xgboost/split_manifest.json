@@ -1,0 +1,34 @@
+{
+  "protocol": "unique_molecules_yawspriority_independent_experiment",
+  "based_on": "frozen_v3 methodology (01_prepare_data.py / 02_train_variants.py)",
+  "canonical_definition": "Chem.MolToSmiles(mol, canonical=True, isomericSmiles=True)",
+  "split_cutoff": 0.6,
+  "split_fp_bits": 2048,
+  "assignment": "deterministic normalized-deficit 80/10/10",
+  "seed": 42,
+  "total_benchmark_molecules": 6972,
+  "split_sizes": {
+    "train": 5577,
+    "val": 698,
+    "test": 697
+  },
+  "usable_per_target": {
+    "Tc (K)": 6972,
+    "Pc (bar)": 6934,
+    "omega (-)": 5627
+  },
+  "feature_dim": 2265,
+  "fingerprint": {
+    "type": "Morgan",
+    "radius": 2,
+    "bits": 2048,
+    "counts": false
+  },
+  "descriptor_set": "RDKit Descriptors.descList (all)",
+  "n_rdkit_descriptors": 217,
+  "refrigerant_molecules_excluded_for_leakage": 24,
+  "input_hashes": {
+    "unique_molecules_Tc_Pc_omega_YAWSPRIORITY.csv": "1b670ad91d34a464e887fd03f492cc2ed1e15be9efe1b236f5cd0bcd9f5f2fcf",
+    "molecules_144_refrigerant.xlsx": "39653b6ee949a86c9bdc5ae8bf9ec3427441b9610da3149860f0d6412ad2c809"
+  }
+}
